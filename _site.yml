@@ -1,0 +1,24 @@
+name: "Michelle VanTieghem"
+output_dir: "."
+navbar:
+  title: "Michelle VanTieghem"
+  left:
+    - text: "Research"
+      href: research.html
+    - text: "Publications"
+      href: publications.html
+    - text: "R Programming"
+      href: Rtutorials.html
+  right:
+    - icon: fa-envelope fa-lg
+      href: contact.html
+    - icon: fa-github fa-lg
+      href: http://github.com/mvantieghem
+    - icon: fa-twitter fa-lg
+      href: https://twitter.com/vanti20m
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/michelle-vantieghem-5677a244/
+output:
+  html_document:
+    theme: paper
+    css: 'styles.css'

@@ -4,9 +4,7 @@ navbar:
   title: "Michelle VanTieghem"
   left:
     - text: "Research"
-      href: research.html
-    - text: "Publications"
-      href: publications.html
+      href: Research.html
     - text: "R Programming"
       href: Rtutorials.html
   right:

@@ -1,0 +1,11 @@
+---
+---
+
+### Teaching with R 
+
+2018-2019. Contributed to curriculum development and instruction for Intoductory R tutorials in the Columbia Psychology Department.The tutorial materials are publicly available on the [Columbia Psychology Scientific Computing Group](https://cu-psych-computing.github.io/cu-psych-comp-tutorial/) github.
+
+2018-2019. Teaching Assistant for Jared Lander's course on [Introduction to Programming in R](https://www8.gsb.columbia.edu/courses/mba/2019/spring/b8144-001), offered at the Columbia Business School. 
+
+Spring 2019. Teaching Assistant for Research Methods class in Columbia Psychology department. Lead curriculum development for semester-long laboratory sessions on data cleaning and analysis using R.
+

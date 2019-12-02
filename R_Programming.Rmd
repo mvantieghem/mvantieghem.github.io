@@ -1,0 +1,23 @@
+---
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+<img src="images/RLadiesNYC.jpeg" style="width:25%; margin-right: 20px" align="left">
+
+### Tutorials and presentations
+
+I am a contributor and instructor for the Introductory R tutorials in the Columbia Psychology Department.The tutorial materials are publicly available on the [Columbia Psychology Scientific Computing Group](https://cu-psych-computing.github.io/cu-psych-comp-tutorial/) github.
+
+[Learning Github and R studio](talks/labmtg_github_rstudio.pdf). See my presentation on how to integrate R projects with github to enhance workflow organization and reproducibility in the lab. 
+
+### Teaching with R 
+
+*2018-2019*  Teaching Assistant for Jared Lander's course on [Introduction to Programming in R](https://www8.gsb.columbia.edu/courses/mba/2019/spring/b8144-001), offered at the Columbia Business School. 
+
+*Spring 2019* Teaching Assistant for Research Methods class in Columbia Psychology department. I Lead curriculum development for semester-long laboratory sessions on data cleaning and analysis using R.
+
+### R community 
+I am a member of [NYC R ladies](https://www.rladiesnyc.org/), which is part of a worldwide organization to promote gender diversity in the R community. 
+
+

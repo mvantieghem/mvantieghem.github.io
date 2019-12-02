@@ -6,7 +6,7 @@ navbar:
     - text: "Research"
       href: Research.html
     - text: "R Programming"
-      href: Rtutorials.html
+      href: R_Programming.html
   right:
     - icon: fa-envelope fa-lg
       href: contact.html

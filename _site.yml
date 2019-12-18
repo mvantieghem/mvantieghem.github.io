@@ -7,8 +7,6 @@ navbar:
       href: Research.html
     - text: "R Programming"
       href: R_Programming.html
-    - text: "stuff test"
-      href: stuff_test.html 
   right:
     - icon: fa-envelope fa-lg
       href: contact.html

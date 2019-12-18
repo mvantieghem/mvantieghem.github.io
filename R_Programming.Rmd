@@ -3,14 +3,12 @@
 
 <link rel="stylesheet" href="styles.css" type="text/css">
 
-<img src="images/RLadiesNYC.jpeg" style="width:25%; margin-right: 20px" align="left">
-<img src="images/tidyverse.png" style="width:25%; margin-right: 20px" align="left">
 
-### Tutorials and presentations
+### Tutorials
 
-I am a contributor and instructor for the Introductory R tutorials in the Columbia Psychology Department.The tutorial materials are publicly available on the [Columbia Psychology Scientific Computing Group](https://cu-psych-computing.github.io/cu-psych-comp-tutorial/) github.
+I am a contributor/instructor for the Introduction to R tutorials in the [Columbia Psychology Scientific Computing Group](https://cu-psych-computing.github.io/cu-psych-comp-tutorial/).  
 
-[Learning Github and R studio](talks/labmtg_github_rstudio.pdf). See my presentation on how to integrate R projects with github to enhance workflow organization and reproducibility in the lab. 
+See my presentation on [Learning Github and R studio](talks/labmtg_github_rstudio.pdf) for improving organization and reproducibility of psychology research projects.
 
 ### Teaching with R 
 
@@ -18,7 +16,11 @@ I am a contributor and instructor for the Introductory R tutorials in the Columb
 
 *Spring 2019* Teaching Assistant for Research Methods class in Columbia Psychology department. I Lead curriculum development for semester-long laboratory sessions on data cleaning and analysis using R.
 
+
 ### R community 
 I am a member of [NYC R ladies](https://www.rladiesnyc.org/), which is part of a worldwide organization to promote gender diversity in the R community. 
+
+<img src="images/RLadiesNYC.jpeg" style="width:25%; margin-right: 20px" align="center">
+<img src="images/tidyverse.png" style="width:25%; margin-right: 20px" align="center">
 
 

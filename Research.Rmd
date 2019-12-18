@@ -7,23 +7,22 @@
 ## Graduate Research
 
 
-#### Longitudinal changes in amygdala, hippocampus, and cortisol development following early caregiving adversity. 
+#### [Longitudinal changes in amygdala, hippocampus, and cortisol development following early caregiving adversity](https://psyarxiv.com/yp5h2/) 
 Across a wide age-range (4-20), we show that the effects of early institutional caregiving on amygdala volume and cortisol change dynamically with age, while hippocampal effects are stable across development. 
 
 We also show that amygdala and hippocampal volumes prospectively predict waking cortisol 2-3 years later, and are independently associated with internalizing symptoms across the entire sample. 
 
 Check out the pre-print [here](https://psyarxiv.com/yp5h2/) and the project repository [here](https://osf.io/9au4v/). 
 
-#### Using a developmental ecology Framework to align fear neurobiology across species
+#### [Using a developmental ecology Framework to align fear neurobiology across species](files/annurev-clinpsy-050718-095727.pdf)
 
-This collaborative review paper provides a framework to bridge the gap between animal and human research to advance our understanding of fear neurobiology. It's the first paper of an ongoing collaboration between the [Tottenham Lab at Columbia](https://danlab7.wixsite.com/mysite), the [Sullivan Lab at NYU](https://www.nki.rfmh.org/research/emotional-brain-institute-ebi/sullivan), and the [Lee Lab at Weill Cornell](https://www.fsleelab.com/). Published in [Annual Reviews of Clinical Psychology](files/annurev-clinpsy-050718-095727.pdf)
+This collaborative review paper provides a framework to bridge the gap between animal and human research to advance our understanding of fear neurobiology. It's the first paper of an ongoing collaboration between the [Tottenham Lab at Columbia](https://danlab7.wixsite.com/mysite), the [Sullivan Lab at NYU](https://www.nki.rfmh.org/research/emotional-brain-institute-ebi/sullivan), and the [Lee Lab at Weill Cornell](https://www.fsleelab.com/). Published in [Annual Reviews of Clinical Psychology]
 
-#### Positive valence bias and parent-child relationship security moderate the association between early institutional caregiving and internalizing symptoms. 
+#### [Positive valence bias and parent-child relationship security moderate the association between early institutional caregiving and internalizing symptoms](files/positive_valence_bias_and_parentchild_relationship_security_moderate_the_association_between_early_institutional_caregiving_and_internalizing_symptoms.pdf)
 
 My master's thesis at Columbia examined moderators in the link between early caregiving adversity and internalizing symptoms. In a sample of internationally adopted youth, we show that greater positivity bias to surprised faces (at the individual level) was associated with lower internalizing symptoms.  Greater parent-child security was also independently associated with lower internalizing symptoms following early institutional care. Together, these findings suggest that resilience factors following early life stress may emerge both at the individual level (positivity bias) and the family level. 
 
-Published in [Development and Psychopathology](files/positive_valence_bias_and_parentchild_relationship_security_moderate_the_association_between_early_institutional_caregiving_and_internalizing_symptoms.pdf)
 
-#### Neurobiological Programming of early life stress: functional development of amygdala-prefrontal circuitry and vulnerability for stress-related psychopathology. 
+#### [Neurobiological Programming of early life stress: functional development of amygdala-prefrontal circuitry and vulnerability for stress-related psychopathology](files/Neurobio_programming_ELS_review.pdf)
 
-Review paper published in [Currrent Topics in Behavioral Neuroscience](files/Neurobio_programming_ELS_review.pdf).
+Review paper published in Currrent Topics in Behavioral Neuroscience.

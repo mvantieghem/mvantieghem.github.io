@@ -28,7 +28,7 @@
   
     
   
-  <meta name="description" content="Learn how to use Academic&#39;s docs layout for publishing online courses, software documentation, and tutorials.">
+  <meta name="description" content="Learn how to create a website using the Blogdown package in R, with Hugo and github pages.">
 
   
   <link rel="alternate" hreflang="en-us" href="/tutorials/example/">
@@ -232,8 +232,8 @@
   
   <meta property="og:site_name" content="Michelle VanTieghem">
   <meta property="og:url" content="/tutorials/example/">
-  <meta property="og:title" content="Overview | Michelle VanTieghem">
-  <meta property="og:description" content="Learn how to use Academic&#39;s docs layout for publishing online courses, software documentation, and tutorials."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
+  <meta property="og:title" content="Why make a website using R studio and github pages? | Michelle VanTieghem">
+  <meta property="og:description" content="Learn how to create a website using the Blogdown package in R, with Hugo and github pages."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
   <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
   
     <meta property="og:updated_time" content="2018-09-09T00:00:00&#43;00:00">
@@ -253,7 +253,7 @@
 
 
 
-  <title>Overview | Michelle VanTieghem</title>
+  <title>Why make a website using R studio and github pages? | Michelle VanTieghem</title>
 
 </head>
 
@@ -343,16 +343,9 @@
         
         
         
-          
-          
-          
-            
-          
-          
-        
 
         <li class="nav-item">
-          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+          <a class="nav-link " href="/publication/"><span>Publications</span></a>
         </li>
 
         
@@ -374,36 +367,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link  active" href="/tutorials/"><span>Tutorials</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+          <a class="nav-link  active" href="/tutorials/"><span>R Tutorials</span></a>
         </li>
 
         
@@ -425,7 +389,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/files/VanTieghem_CV-11-21-2019.pdf"><span>CV</span></a>
+          <a class="nav-link " href="/files/VanTieghem_CV_2020-02-19.pdf"><span>CV</span></a>
         </li>
 
         
@@ -499,19 +463,17 @@
   </div>
   
   <div class="docs-toc-item">
-    <a class="docs-toc-link" href="/tutorials/example/example1/">Example Topic</a>
-    <ul class="nav docs-sidenav">
-      
-      <li >
-        <a href="/tutorials/example/example1/">Tips 1-2</a>
-      </li>
-      
-      <li >
-        <a href="/tutorials/example/example2/">Tips 3-4</a>
-      </li>
-      
-    </ul>
-    
+    <a class="docs-toc-link" href="/tutorials/example/1_build_website/">1. Build website with Blogdown and Hugo in R</a>
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/tutorials/example/2_link_to_github/">2. Link your website to github</a>
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/tutorials/example/3_serve_site/">3. Serve site to github pages</a>
 
   </div>
   
@@ -521,58 +483,27 @@
     </div>
 
     
-    <div class="d-none d-xl-block col-xl-2 docs-toc">
-      <ul class="nav toc-top">
-        <li><a href="#" id="back_to_top" class="docs-toc-title">Contents</a></li>
-      </ul>
-
-      <nav id="TableOfContents">
-  <ul>
-    <li><a href="#flexibility">Flexibility</a></li>
-    <li><a href="#delete-tutorials">Delete tutorials</a></li>
-    <li><a href="#update-site-menu">Update site menu</a></li>
-    <li><a href="#update-the-docs-menu">Update the docs menu</a></li>
-  </ul>
-</nav>
-
-      
-    </div>
-    
 
     <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
 
       <article class="article">
 
         <div class="docs-article-container">
-          <h1>Overview</h1>
+          <h1>Why make a website using R studio and github pages?</h1>
 
           <div class="article-style">
-            <h2 id="flexibility">Flexibility</h2>
-<p>This feature can be used for publishing content such as:</p>
-<ul>
-<li><strong>Online courses</strong></li>
-<li><strong>Project or software documentation</strong></li>
-<li><strong>Tutorials</strong></li>
-</ul>
-<p>The <code>courses</code> folder may be renamed. For example, we can rename it to <code>docs</code> for software/project documentation or <code>tutorials</code> for creating an online course.</p>
-<h2 id="delete-tutorials">Delete tutorials</h2>
-<p><strong>To remove these pages, delete the <code>courses</code> folder and see below to delete the associated menu link.</strong></p>
-<h2 id="update-site-menu">Update site menu</h2>
-<p>After renaming or deleting the <code>courses</code> folder, you may wish to update any <code>[[main]]</code> menu links to it by editing your menu configuration at <code>config/_default/menus.toml</code>.</p>
-<p>For example, if you delete this folder, you can remove the following from your menu configuration:</p>
-<pre><code class="language-toml">[[main]]
-  name = &quot;Courses&quot;
-  url = &quot;courses/&quot;
-  weight = 50
-</code></pre>
-<p>Or, if you are creating a software documentation site, you can rename the <code>courses</code> folder to <code>docs</code> and update the associated <em>Courses</em> menu configuration to:</p>
-<pre><code class="language-toml">[[main]]
-  name = &quot;Docs&quot;
-  url = &quot;docs/&quot;
-  weight = 50
-</code></pre>
-<h2 id="update-the-docs-menu">Update the docs menu</h2>
-<p>If you use the <em>docs</em> layout, note that the name of the menu in the front matter should be in the form <code>[menu.X]</code> where <code>X</code> is the folder name. Hence, if you rename the <code>courses/example/</code> folder, you should also rename the menu definitions in the front matter of files within <code>courses/example/</code> from <code>[menu.example]</code> to <code>[menu.&lt;NewFolderName&gt;]</code>.</p>
+            <p>You're an R user who is looking to make a professional webpage that:<br>
+a. Takes advantage of 
+<a href="https://themes.gohugo.io/" target="_blank" rel="noopener">Hugo website themes</a>
+<br>
+b. Avoids learning html or java <br>
+b. Can be hosted on a free domain 
+<a href="https://pages.github.com/" target="_blank" rel="noopener">(Github Pages)</a>
+</p>
+<p><em>Note: This tutorial assumes that you have basic proficiency using Github, R studio, and github repositories with R projects.</em>
+If you aren't comfortable with this yet, start 
+<a href="https://happygitwithr.com/index.html" target="_blank" rel="noopener">here</a>
+ instead.</p>
 
           </div>
 

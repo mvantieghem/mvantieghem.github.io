@@ -3,18 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/tutorials/example/example1/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tutorials/example/</loc>
     <lastmod>2018-09-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tutorials/example/example2/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
@@ -38,17 +28,7 @@
   </url>
   
   <url>
-    <loc>/publication_types/2/</loc>
-    <lastmod>2019-11-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication_types/3/</loc>
-    <lastmod>2019-11-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/anfei-lei/</loc>
     <lastmod>2019-11-23T00:00:00+00:00</lastmod>
   </url>
   
@@ -59,16 +39,6 @@
   
   <url>
     <loc>/authors/bonnie-goff/</loc>
-    <lastmod>2019-11-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/bridget-callaghan/</loc>
-    <lastmod>2019-11-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/chelsea-harmon/</loc>
     <lastmod>2019-11-23T00:00:00+00:00</lastmod>
   </url>
   
@@ -89,16 +59,6 @@
   
   <url>
     <loc>/authors/eva-telzer/</loc>
-    <lastmod>2019-11-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/francis-lee/</loc>
-    <lastmod>2019-11-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/heidi-meyers/</loc>
     <lastmod>2019-11-23T00:00:00+00:00</lastmod>
   </url>
   
@@ -124,11 +84,6 @@
   
   <url>
     <loc>/authors/marta-korom/</loc>
-    <lastmod>2019-11-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/maya-opendak/</loc>
     <lastmod>2019-11-23T00:00:00+00:00</lastmod>
   </url>
   
@@ -163,27 +118,7 @@
   </url>
   
   <url>
-    <loc>/authors/regina-sullivan/</loc>
-    <lastmod>2019-11-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/source-themes/</loc>
-    <lastmod>2019-11-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2019-11-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/authors/tricia-chooy/</loc>
-    <lastmod>2019-11-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/annual-reviews-clinical/</loc>
     <lastmod>2019-11-23T00:00:00+00:00</lastmod>
   </url>
   
@@ -195,6 +130,51 @@
   <url>
     <loc>/post/writing-technical-content/</loc>
     <lastmod>2019-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/2/</loc>
+    <lastmod>2019-02-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/anfei-lei/</loc>
+    <lastmod>2019-02-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/bridget-callaghan/</loc>
+    <lastmod>2019-02-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/chelsea-harmon/</loc>
+    <lastmod>2019-02-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/francis-lee/</loc>
+    <lastmod>2019-02-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/heidi-meyers/</loc>
+    <lastmod>2019-02-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/maya-opendak/</loc>
+    <lastmod>2019-02-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/regina-sullivan/</loc>
+    <lastmod>2019-02-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/annual-reviews-clinical/</loc>
+    <lastmod>2019-02-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -210,6 +190,21 @@
   <url>
     <loc>/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tutorials/example/1_build_website/</loc>
+    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tutorials/example/2_link_to_github/</loc>
+    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tutorials/example/3_serve_site/</loc>
+    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -260,6 +255,11 @@
   <url>
     <loc>/project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>

@@ -17,16 +17,14 @@
       <link>/authors/admin/</link>
       <pubDate>Sat, 23 Nov 2019 00:00:00 +0000</pubDate>
       <guid>/authors/admin/</guid>
-      <description>&lt;p&gt;I am a PhD candidate at Columbia University. My graduate research focused on understanding how early adversity influences neurobiology and stress physiology during childhood. In March 2020, I will begin a Postdoctoral position at NYU Langone Medical Center in the department of Child and Adolescent Psychiatry. I will be working in the SCAN Lab to investigate how the early environment influences prenatal and postnatal brain development.&lt;/p&gt;
+      <description>&lt;p&gt;I research early environments, brain development, and mental health. I recently completed my PhD at Columbia University, where I studied neurobiological development and motivated behavior in children and adolescents with history of early adversity. I am currently a Postdoctoral Researcher at the NYU Department of Child &amp;amp; Adolescent Psychiatry, where I examine how the early environment influences prenatal and postnatal brain development and later mental health outcomes.&lt;/p&gt;
+&lt;p&gt;I also teach R programming in both workshops and courses, and I am a member of 
+&lt;a href=&#34;https://www.rladiesnyc.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R ladies in NYC&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;Outside the lab, I&#39;m an avid cyclist and also 
+&lt;a href=&#34;https://www.nyccwomensracing.com/blog&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;blog&lt;/a&gt;
+ about concussion awareness and prevention.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Anfei Lei</title>
-      <link>/authors/anfei-lei/</link>
-      <pubDate>Sat, 23 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/anfei-lei/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -34,22 +32,6 @@
       <link>/authors/bonnie-goff/</link>
       <pubDate>Sat, 23 Nov 2019 00:00:00 +0000</pubDate>
       <guid>/authors/bonnie-goff/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bridget Callaghan</title>
-      <link>/authors/bridget-callaghan/</link>
-      <pubDate>Sat, 23 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/bridget-callaghan/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Chelsea Harmon</title>
-      <link>/authors/chelsea-harmon/</link>
-      <pubDate>Sat, 23 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/chelsea-harmon/</guid>
       <description></description>
     </item>
     
@@ -82,22 +64,6 @@
       <link>/authors/eva-telzer/</link>
       <pubDate>Sat, 23 Nov 2019 00:00:00 +0000</pubDate>
       <guid>/authors/eva-telzer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Francis Lee</title>
-      <link>/authors/francis-lee/</link>
-      <pubDate>Sat, 23 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/francis-lee/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Heidi Meyers</title>
-      <link>/authors/heidi-meyers/</link>
-      <pubDate>Sat, 23 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/heidi-meyers/</guid>
       <description></description>
     </item>
     
@@ -142,14 +108,6 @@
     </item>
     
     <item>
-      <title>Maya Opendak</title>
-      <link>/authors/maya-opendak/</link>
-      <pubDate>Sat, 23 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/maya-opendak/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Mor Shapiro</title>
       <link>/authors/mor-shapiro/</link>
       <pubDate>Sat, 23 Nov 2019 00:00:00 +0000</pubDate>
@@ -174,18 +132,66 @@
     </item>
     
     <item>
-      <title>Regina Sullivan</title>
-      <link>/authors/regina-sullivan/</link>
-      <pubDate>Sat, 23 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/regina-sullivan/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Tricia Chooy</title>
       <link>/authors/tricia-chooy/</link>
       <pubDate>Sat, 23 Nov 2019 00:00:00 +0000</pubDate>
       <guid>/authors/tricia-chooy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anfei Lei</title>
+      <link>/authors/anfei-lei/</link>
+      <pubDate>Sat, 23 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/anfei-lei/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bridget Callaghan</title>
+      <link>/authors/bridget-callaghan/</link>
+      <pubDate>Sat, 23 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/bridget-callaghan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chelsea Harmon</title>
+      <link>/authors/chelsea-harmon/</link>
+      <pubDate>Sat, 23 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/chelsea-harmon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Francis Lee</title>
+      <link>/authors/francis-lee/</link>
+      <pubDate>Sat, 23 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/francis-lee/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Heidi Meyers</title>
+      <link>/authors/heidi-meyers/</link>
+      <pubDate>Sat, 23 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/heidi-meyers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Maya Opendak</title>
+      <link>/authors/maya-opendak/</link>
+      <pubDate>Sat, 23 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/maya-opendak/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Regina Sullivan</title>
+      <link>/authors/regina-sullivan/</link>
+      <pubDate>Sat, 23 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/regina-sullivan/</guid>
       <description></description>
     </item>
     

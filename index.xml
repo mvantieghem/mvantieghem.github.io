@@ -13,48 +13,6 @@
     </image>
     
     <item>
-      <title>Example Page 1</title>
-      <link>/tutorials/example/example1/</link>
-      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>/tutorials/example/example1/</guid>
-      <description>&lt;p&gt;In this tutorial, I&#39;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
-&lt;h2 id=&#34;tip-1&#34;&gt;Tip 1&lt;/h2&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
-&lt;h2 id=&#34;tip-2&#34;&gt;Tip 2&lt;/h2&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Example Page 2</title>
-      <link>/tutorials/example/example2/</link>
-      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>/tutorials/example/example2/</guid>
-      <description>&lt;p&gt;Here are some more tips for getting started with Academic:&lt;/p&gt;
-&lt;h2 id=&#34;tip-3&#34;&gt;Tip 3&lt;/h2&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
-&lt;h2 id=&#34;tip-4&#34;&gt;Tip 4&lt;/h2&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Example Talk</title>
       <link>/talk/example/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
@@ -83,41 +41,7 @@
       <link>/publication/sb-monster/</link>
       <pubDate>Sat, 23 Nov 2019 00:00:00 +0000</pubDate>
       <guid>/publication/sb-monster/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&#39;s Markdown slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;
-.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Using a Developmental Ecology Framework to Align Fear Neurobiology Across Species</title>
-      <link>/publication/annual-reviews-clinical/</link>
-      <pubDate>Sat, 23 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/annual-reviews-clinical/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&#39;s Markdown slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;
-.&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -358,6 +282,14 @@ A Markdown aside is useful for displaying notices, hints, or definitions to your
     </item>
     
     <item>
+      <title>Using a Developmental Ecology Framework to Align Fear Neurobiology Across Species</title>
+      <link>/publication/annual-reviews-clinical/</link>
+      <pubDate>Sat, 23 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/annual-reviews-clinical/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Display Jupyter Notebooks with Academic</title>
       <link>/post/jupyter/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
@@ -550,6 +482,108 @@ Three
     </item>
     
     <item>
+      <title>Build website</title>
+      <link>/tutorials/example/1_build_website/</link>
+      <pubDate>Sun, 09 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>/tutorials/example/1_build_website/</guid>
+      <description>&lt;h2 id=&#34;1-choose-a-theme-for-your-website&#34;&gt;1) Choose a theme for your website&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Hugo has a wide array of website themes, which can be found 
+&lt;a href=&#34;https://themes.gohugo.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;Themes dictate both the aethetics and the format of a website.&lt;/li&gt;
+&lt;li&gt;Choose wisely. Once you start with a certain theme, it&#39;s hard to switch themes later.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;2-use-blogdown-to-generate-a-website-template&#34;&gt;2) Use blogdown to generate a website template&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Once you&#39;ve chosen a theme, navigate to the owner&#39;s github repository (&lt;a href=&#34;https://github.com/user/repo)&#34;&gt;https://github.com/user/repo)&lt;/a&gt;. We&#39;re going to build our website using the example template for that theme.&lt;/li&gt;
+&lt;li&gt;in R studio, install the blogdown package. &lt;strong&gt;install.packages(&amp;lsquo;blogdown&amp;rsquo;)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Make a new R project. &lt;strong&gt;File &amp;ndash;&amp;gt; New Project&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Generate a website from the theme template in your R Project. &lt;strong&gt;blogdown::generate_website (theme = &amp;lsquo;github.io/username/repository/&#39;)&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Do I need to include ::build_site() &amp;ndash; does it show up in the viewer then?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;3-edit-content-on-your-website&#34;&gt;3) Edit content on your website&lt;/h2&gt;
+&lt;p&gt;Every theme has a slightly different setup, but we will walk through the basic overview.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Config:&lt;/strong&gt; contains the backbone structure of your website. The menus.toml file can be edited based on what navigation links you would like to include on your website. In most cases, you do not need to edit the language.toml, config.toml, or params.toml files.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Content:&lt;/strong&gt; This is where most of your editing will take place. There is a subfolder for each component of your website, and this will vary depending on your chosen theme. For example, each component (or &amp;lsquo;widget&amp;rsquo;) of the home page will be included within the &amp;lsquo;home&amp;rsquo; folder. You can activate/inactivate or edit these .md files to your heart&#39;s content.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Static:&lt;/strong&gt; This is the storage location for any static files that you add to your website. For example, you can add PDF files or images that are then linked to in a content page.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Themes:&lt;/strong&gt; This stores the necessary stuff to build a website using your chosen theme. &lt;em&gt;Do not edit!&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Public:&lt;/strong&gt; Contains the live website, built from the contents and configurations. &lt;em&gt;Do not edit!&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;4-preview-your-website&#34;&gt;4) Preview your website&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;You can easily preview your website as you make changes in the R studio viewer. You only need to do this once during a single R session; the preview will refresh after you save changes. &lt;strong&gt;blogdown::serve_site()&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For additional details and trouble-shooting, see the official 
+&lt;a href=&#34;https://bookdown.org/yihui/blogdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blogdown documentation&lt;/a&gt;
+ for making a website using R markdown.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Link your website to github</title>
+      <link>/tutorials/example/2_link_to_github/</link>
+      <pubDate>Sun, 09 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>/tutorials/example/2_link_to_github/</guid>
+      <description>&lt;p&gt;Before we start, it&#39;s important to explain that there will be 2 separate github repositories for this website. This is because hugo (and many website platforms) separate editable content from your live website content (&amp;lsquo;public&amp;rsquo; folder).&lt;br&gt;
+&lt;strong&gt;1. webpage:&lt;/strong&gt; This repository will contain the editable contents of your website, which you already generated in step 1.&lt;br&gt;
+&lt;strong&gt;2. username.github.io:&lt;/strong&gt; This repository will be a submodule of the &amp;lsquo;webpage&amp;rsquo; repository. It contains the &amp;lsquo;public&amp;rsquo; folder of your website, and is used to generate your live website on github pages.&lt;/p&gt;
+&lt;h2 id=&#34;1-make-a-webpage-repository&#34;&gt;1) Make a &amp;lsquo;webpage&amp;rsquo; repository&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;make a new repository on github, and call it &amp;lsquo;webpage&amp;rsquo; or whatever you&#39;d like to call your main website repo. Don&#39;t add anything to the repository yet!&lt;/li&gt;
+&lt;li&gt;Copy the &amp;lsquo;clone&amp;rsquo; link for your new repository.&lt;/li&gt;
+&lt;li&gt;Open R studio and click File &amp;ndash;&amp;gt; New Project.&lt;/li&gt;
+&lt;li&gt;Choose &amp;lsquo;from version control&amp;rsquo; and &amp;lsquo;Github&amp;rsquo; in the project options.&lt;/li&gt;
+&lt;li&gt;Create your R project using the copied repository link.&lt;/li&gt;
+&lt;li&gt;Then copy the entire contents of your Hugo website into the new R project directory &amp;amp; close your R project.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;2-make-the-usernamegithubio-repository-and-add-it-as-a-submodule&#34;&gt;2) Make the &amp;lsquo;username.github.io&amp;rsquo; repository and add it as a submodule.&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Make a new repository on github called &lt;strong&gt;username.github.io&lt;/strong&gt;. Github pages will automatically generate a webpage from any repository with this specific name, so unfortunately you cannot be creative here!&lt;/li&gt;
+&lt;li&gt;Open terminal and navigate to your webpage directory on your local machine. &lt;strong&gt;cd webpage/&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Delete your public repository. &lt;strong&gt;rm -rf public&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Now we are going to add our &amp;lsquo;username.github.io&amp;rsquo; repository as a submodule of the &amp;lsquo;webpage&amp;rsquo; repository. &lt;strong&gt;submodule add -b master &lt;a href=&#34;https://github.com/username/username.github.io.git&#34;&gt;https://github.com/username/username.github.io.git&lt;/a&gt; public&lt;/strong&gt;
+Next time we serve the site, the &amp;lsquo;username.github.io.git&amp;rsquo; repository will contain the contents of the &amp;lsquo;public&amp;rsquo; directory.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;3-set-your-website-html-address&#34;&gt;3) Set your website html address&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Open the &lt;strong&gt;config.toml&lt;/strong&gt; file in the home directory of your webpage_hugo R project.&lt;/li&gt;
+&lt;li&gt;Replace the baseURL &lt;a href=&#34;https://example.com&#34;&gt;https://example.com&lt;/a&gt; with your github page domain: &lt;strong&gt;&lt;a href=&#34;https://username.github.io&#34;&gt;https://username.github.io&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Save the changes to the config.toml file.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For additional information and trouble-shooting, see the related 
+&lt;a href=&#34;https://gohugo.io/hosting-and-deployment/hosting-on-github/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo documentation&lt;/a&gt;
+ for hosting websites on github pages.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Serve website on github pages</title>
+      <link>/tutorials/example/3_serve_site/</link>
+      <pubDate>Sun, 09 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>/tutorials/example/3_serve_site/</guid>
+      <description>&lt;h2 id=&#34;1-edit-content-on-your-webpage&#34;&gt;1) Edit content on your webpage&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Open your &amp;lsquo;webpage&amp;rsquo; R project to continue editing content on your website.&lt;/li&gt;
+&lt;li&gt;Re-generate the public folder with updated content: &lt;strong&gt;blogdown::serve_site()&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;2-deploy-your-changes-to-the-live-website&#34;&gt;2) Deploy your changes to the live website&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;In terminal, navigate to your &amp;lsquo;webpage&amp;rsquo; directory. &lt;strong&gt;cd webpage/&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Run the deploy.sh script from the console to update your live webpage with recent edits.
+This script will commit all changes to the public folder to your github pages repository, and thus automatically updates your live website.&lt;/li&gt;
+&lt;li&gt;Check your live website updates at &lt;strong&gt;username.github.io&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;3-track-your-content-changes-to-the-website-using-github&#34;&gt;3) Track your content changes to the website using github&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Commit &amp;amp; push changes to &amp;lsquo;webpage&amp;rsquo; to track your content changes.&lt;/li&gt;
+&lt;li&gt;Exclude the &amp;lsquo;public&amp;rsquo; folder from being tracked by adding this line to your .gitignore file: &lt;strong&gt;public/&lt;/strong&gt;. Make sure you commit &amp;amp; push the updated .gitignore file too.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Privacy Policy</title>
       <link>/privacy/</link>
       <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
@@ -572,20 +606,7 @@ Three
       <link>/publication/surp-paperr/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
       <guid>/publication/surp-paperr/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&#39;s Markdown slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;
-.&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -593,15 +614,7 @@ Three
       <link>/publication/neurobio-review/</link>
       <pubDate>Sat, 07 Jan 2017 00:00:00 +0000</pubDate>
       <guid>/publication/neurobio-review/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&#39;s Markdown slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;
-.&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
     <item>

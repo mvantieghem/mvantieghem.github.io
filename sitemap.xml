@@ -203,11 +203,6 @@
   </url>
   
   <url>
-    <loc>/tutorials/example/2_link_to_github.utf8/</loc>
-    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tutorials/example/3_serve_site/</loc>
     <lastmod>2018-09-09T00:00:00+00:00</lastmod>
   </url>
@@ -310,11 +305,6 @@
   <url>
     <loc>/tags/regression/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tutorials/example/3_serve_site/</loc>
-    <priority>0</priority>
   </url>
   
   <url>

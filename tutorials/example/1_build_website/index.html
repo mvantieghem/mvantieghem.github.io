@@ -370,7 +370,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link  active" href="/tutorials/"><span>R Tutorials</span></a>
+          <a class="nav-link  active" href="/tutorials/"><span>R Resources</span></a>
         </li>
 
         
@@ -461,7 +461,7 @@
   
   
   <div class="docs-toc-item">
-    <a class="docs-toc-link" href="/tutorials/example/">Overview</a>
+    <a class="docs-toc-link" href="/tutorials/cu_psych_computing/">CU_psych_computing</a>
 
   </div>
   
@@ -471,7 +471,17 @@
   </div>
   
   <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/tutorials/example/">Overview</a>
+
+  </div>
+  
+  <div class="docs-toc-item">
     <a class="docs-toc-link" href="/tutorials/example/2_link_to_github/">2. Link your website to github</a>
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/tutorials/git_and_r/">Git and R</a>
 
   </div>
   
@@ -531,21 +541,20 @@
 <strong>blogdown::generate_website (theme = &lsquo;github.io/username/repository/')</strong>.</li>
 </ul>
 <h2 id="3-edit-content-on-your-website">3) Edit content on your website</h2>
-<p>Every theme has a slightly different setup, but we will walk through the basic overview.  \</p>
+<p>Every theme has a slightly different setup, but we will walk through the basic overview.</p>
 <ul>
-<li><strong>Config:</strong> contains the backbone structure of your website. The menus.toml file can be edited based on what navigation links you would like to include on your website. In most cases, you do not need to edit the language.toml, config.toml, or params.toml files. \</li>
-<li><strong>Content:</strong> This is where most of your editing will take place. There is a subfolder for each component of your website, and this will vary depending on your chosen theme. For example, each component (or &lsquo;widget&rsquo;) of the home page will be included within the &lsquo;home&rsquo; folder. You can activate/inactivate or edit these .md files to your heart's content. \</li>
-<li><strong>Static:</strong> This is the storage location for any static files that you add to your website. For example, you can add PDF files or images that are then linked to in a content page. \</li>
-<li><strong>Themes:</strong> This stores the necessary stuff to build a website using your chosen theme. <em>Do not edit!</em> \</li>
+<li><strong>Config:</strong> contains the backbone structure of your website. The menus.toml file can be edited based on what navigation links you would like to include on your website. In most cases, you do not need to edit the language.toml, config.toml, or params.toml files.</li>
+<li><strong>Content:</strong> This is where most of your editing will take place. There is a subfolder for each component of your website, and this will vary depending on your chosen theme. For example, each component (or &lsquo;widget&rsquo;) of the home page will be included within the &lsquo;home&rsquo; folder. You can activate/inactivate or edit these .md files to your heart's content.</li>
+<li><strong>Static:</strong> This is the storage location for any static files that you add to your website. For example, you can add PDF files or images that are then linked to in a content page.</li>
+<li><strong>Themes:</strong> This stores the necessary code to build the website using your chosen theme. <em>Do not edit!</em></li>
 <li><strong>Public:</strong> Contains the live website, built from the contents and configurations. <em>Do not edit!</em></li>
 </ul>
 <h2 id="4-preview-your-website">4) Preview your website</h2>
 <ul>
 <li>To preview an individual Rmd file:<br>
 Click the <strong>Preview</strong> button at the top of the Rmd file in R studio</li>
-<li>To preview the entire wepage<br>
-<strong>blogdown::serve_site()</strong></li>
-<li>The webpage will display in the viewer panel of R studio. \</li>
+<li>To preview the entire wepage: <strong>blogdown::serve_site()</strong></li>
+<li>The webpage will display in the viewer panel of R studio.</li>
 <li>Click <strong>open in a new window</strong> (on the top left of the Viewer panel) to open the webpage preview in your browser.</li>
 <li>You only need to do this once during a single R session; the webpage preview will refresh after each time you save changes.</li>
 </ul>

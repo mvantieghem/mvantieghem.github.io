@@ -374,7 +374,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link  active" href="/tutorials/"><span>R Tutorials</span></a>
+          <a class="nav-link  active" href="/tutorials/"><span>R Resources</span></a>
         </li>
 
         
@@ -465,7 +465,7 @@
   
   
   <div class="docs-toc-item">
-    <a class="docs-toc-link" href="/tutorials/example/">Overview</a>
+    <a class="docs-toc-link" href="/tutorials/cu_psych_computing/">CU_psych_computing</a>
 
   </div>
   
@@ -474,8 +474,18 @@
 
   </div>
   
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/tutorials/example/">Overview</a>
+
+  </div>
+  
   <div class="docs-toc-item active">
     <a class="docs-toc-link" href="/tutorials/example/2_link_to_github/">2. Link your website to github</a>
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/tutorials/git_and_r/">Git and R</a>
 
   </div>
   
@@ -530,18 +540,16 @@
 <h2 id="2-make-the-usernamegithubio-repository-and-add-it-as-a-submodule">2) Make the &lsquo;username.github.io&rsquo; repository and add it as a submodule.</h2>
 <ul>
 <li>Make a new repository on github called <strong>username.github.io</strong>. Github pages will automatically generate a webpage from any repository with this specific name, so unfortunately you cannot be creative here!</li>
-<li>Open terminal and navigate to your webpage directory on your local machine.<br>
-<strong>cd /your-local-directories/webpage/</strong> \</li>
-<li>Delete your public repository.<br>
-<strong>rm -rf public</strong> \</li>
-<li>Now we are going to add our &lsquo;username.github.io&rsquo; repository as a submodule of the &lsquo;webpage&rsquo; repository.<br>
-<strong>submodule add -b master <a href="https://github.com/username/username.github.io.git">https://github.com/username/username.github.io.git</a> public</strong> \</li>
+<li>Open terminal and navigate to your webpage directory on your local machine:<br>
+<strong>cd /your-local-directories/webpage/</strong></li>
+<li>Delete your public repository: <strong>rm -rf public</strong></li>
+<li>Now we are going to add our &lsquo;username.github.io&rsquo; repository as a submodule of the &lsquo;webpage&rsquo; repository: <strong>submodule add -b master <a href="https://github.com/username/username.github.io.git">https://github.com/username/username.github.io.git</a> public</strong></li>
 <li>Next time we serve the site, the &lsquo;username.github.io.git&rsquo; repository will contain the contents of the &lsquo;public&rsquo; directory.</li>
 </ul>
 <h2 id="3-set-your-website-html-address">3) Set your website html address</h2>
 <ul>
 <li>Open the <strong>config.toml</strong> file in the home directory of your webpage_hugo R project.</li>
-<li>Replace the baseURL <a href="https://example.com">https://example.com</a> with your github page domain: \ <strong><a href="https://username.github.io">https://username.github.io</a></strong> \</li>
+<li>Replace the baseURL <a href="https://example.com">https://example.com</a> with your github page domain: <strong><a href="https://username.github.io">https://username.github.io</a></strong></li>
 <li>Save the changes to the config.toml file.</li>
 </ul>
 <p>For additional information and trouble-shooting, see the related 

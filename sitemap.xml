@@ -133,12 +133,12 @@
   </url>
   
   <url>
-    <loc>/blog/</loc>
+    <loc>/post/</loc>
     <lastmod>2019-09-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/writing-technical-content/</loc>
+    <loc>/post/writing-technical-content/</loc>
     <lastmod>2019-07-12T00:00:00+00:00</lastmod>
   </url>
   
@@ -188,7 +188,7 @@
   </url>
   
   <url>
-    <loc>/blog/jupyter/</loc>
+    <loc>/post/jupyter/</loc>
     <lastmod>2019-09-05T00:00:00+00:00</lastmod>
   </url>
   
@@ -263,7 +263,7 @@
   </url>
   
   <url>
-    <loc>/blog/getting-started/</loc>
+    <loc>/post/getting-started/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url>
   
@@ -278,7 +278,7 @@
   </url>
   
   <url>
-    <loc>/blog/2015-07-23-r-rmarkdown/</loc>
+    <loc>/post/2015-07-23-r-rmarkdown/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
   </url>
   
@@ -300,11 +300,6 @@
   <url>
     <loc>/tags/regression/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tutorials/test/1.cleaning_script_for_all_data_mixed_effects_ages4to19/</loc>
-    <priority>0</priority>
   </url>
   
   <url>

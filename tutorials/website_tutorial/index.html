@@ -367,7 +367,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link  active" href="/tutorials/"><span>R Resources</span></a>
+          <a class="nav-link  active" href="/tutorials/"><span>R Tutorials</span></a>
         </li>
 
         
@@ -502,6 +502,9 @@
 If you aren't comfortable with this yet, start 
 <a href="https://happygitwithr.com/index.html" target="_blank" rel="noopener">here</a>
  instead.</p>
+<p>*Disclaimer: This is meant to be a quick step-by-step guide to generate a webpage from beginning to end. For more a more extensive guide on all things related to using blogdown, see the official 
+<a href="https://bookdown.org/yihui/blogdown/" target="_blank" rel="noopener">Blogdown documentation</a>
+.</p>
 <h2 id="part-1-build-your-website">Part 1: Build your website</h2>
 <h3 id="11-choose-a-theme-for-your-website">1.1 Choose a theme for your website</h3>
 <ul>
@@ -513,35 +516,43 @@ If you aren't comfortable with this yet, start
 </ul>
 <h3 id="12-use-blogdown-to-generate-a-website-template">1.2 Use blogdown to generate a website template</h3>
 <ul>
-<li>Once you've chosen a theme, navigate to the owner's github repository (e.g. <a href="https://github.com/user/repo)">https://github.com/user/repo)</a>. We're going to build our website using the example template for that theme.</li>
-<li>in R studio, install the blogdown package.<br>
-<strong>install.packages(&lsquo;blogdown&rsquo;)</strong></li>
-<li>Make a new R project.<br>
-<strong>File &ndash;&gt; New Project</strong></li>
-<li>Generate a website from the theme template in your R Project.<br>
-<strong>blogdown::generate_website (theme = &lsquo;github.io/username/repository/')</strong></li>
+<li>
+<p>Once you've chosen a theme, click &ldquo;Homepage&rdquo; on the theme website, which leads you to the owner's github repository for the theme. We will use this github project (e.g. &ldquo;user/themename&rdquo;) as input to the blogdown::new_website function. Step by step instructions below:</p>
+</li>
+<li>
+<p>in R studio, install the blogdown package and load the library.<br>
+<strong>install.packages(&lsquo;blogdown&rsquo;)</strong>
+<strong>install.packages(&lsquo;hugo&rsquo;)</strong>
+<strong>library(blogdown)</strong></p>
+</li>
+<li>
+<p>Make a brand new R project in a <em>new</em> directory<br>
+<strong>File &ndash;&gt; New Project  &ndash;&gt; New directory &ndash;&gt; choose location</strong></p>
+</li>
+<li>
+<p>Generate a website from the theme template in your R Project.<br>
+<strong>blogdown::new_website(theme = &ldquo;user/themename&rdquo;)</strong></p>
+</li>
 </ul>
 <h3 id="13-edit-content-on-your-website">1.3 Edit content on your website</h3>
-<p>Every theme has a slightly different setup, but we will walk through the basic overview.</p>
+<p>Every theme has a slightly different setup, but we will walk through the basic overview. You can also read the theme documentation for more details on your chosen theme.</p>
 <ul>
-<li><strong>Config:</strong> contains the backbone structure of your website. The menus.toml file can be edited based on what navigation links you would like to include on your website. In most cases, you do not need to edit the language.toml, config.toml, or params.toml files.</li>
-<li><strong>Content:</strong> This is where most of your editing will take place. There is a subfolder for each component of your website, and this will vary depending on your chosen theme. For example, each component (or &lsquo;widget&rsquo;) of the home page will be included within the &lsquo;home&rsquo; folder. You can activate/inactivate or edit these .md files to your heart's content.</li>
-<li><strong>Static:</strong> This is the storage location for any static files that you add to your website. For example, you can add PDF files or images that are then linked to in a content page.</li>
+<li><strong>Config and menu files</strong> contain the backbone structure of your website. Config files designate the url, theme, and title of your website. Menu files designate the &ldquo;widgets&rdquo; or components of your website (which varies by theme). Disclaimer: depending on the theme, these files may be in the main directory or different locations (e.g. in the &ldquo;data&rdquo; or &ldquo;config&rdquo; folders) and might end with either &ldquo;.toml&rdquo; or &ldquo;.yml&rdquo;.</li>
+<li><strong>Content:</strong> This is where most of your editing will take place. The organization of this folder will vary depending on your chosen theme, and the files here should coincide with your menu.</li>
+<li><strong>Static:</strong> This is the storage location for any static files that you add to your website. For example, you can add PDF files or images that you link in the content.</li>
 <li><strong>Themes:</strong> This stores the necessary code to build the website using your chosen theme. <em>Do not edit!</em></li>
 <li><strong>Public:</strong> Contains the live website, built from the contents and configurations. <em>Do not edit!</em></li>
 </ul>
-<h3 id="14-preview-your-website">1.4 Preview your website</h3>
+<p>It will take some trial-and-error to figure out how changes in these files correspond to changes in the website. Try making a simple change first, like changing the title of your webpage in the config file, annd see how it changes your webpage. The next step describes how to preview your site.</p>
+<h3 id="14-preview-your-website-as-you-make-changes">1.4 Preview your website as you make changes</h3>
 <ul>
-<li>To preview an individual Rmd file:<br>
-Click the <strong>Preview</strong> button at the top of the Rmd file in R studio</li>
-<li>To preview the entire wepage: <strong>blogdown::serve_site()</strong></li>
-<li>The webpage will display in the viewer panel of R studio.</li>
-<li>Click <strong>open in a new window</strong> (on the top left of the Viewer panel) to open the webpage preview in your browser.</li>
-<li>You only need to do this once during a single R session; the webpage preview will refresh after each time you save changes.</li>
+<li>You can see changes live as you save them by rendering the site<br>
+<strong>blogdown::serve_site()</strong></li>
+<li>The webpage will automatically display in the viewer panel of R studio.</li>
+<li>To see the webpage preview in full size, click <strong>open in a new window</strong> (on the top left of the Viewer panel) to open it in your browser.</li>
 </ul>
-<p>For additional details and trouble-shooting, see the official 
-<a href="https://bookdown.org/yihui/blogdown/" target="_blank" rel="noopener">Blogdown documentation</a>
- for making a website using R markdown.</p>
+<p><em>Do I need to run serve_site() after every change I make?</em><br>
+It depends. After running it once, the webpage preview will automatically refresh after each time you save changes to existing files, but if you remove or add new widgets, you will need to re-run the command to view those structural changes.</p>
 <h2 id="part-2-link-the-website-to-github">Part 2: Link the website to github</h2>
 <p>Before we start, it's important to explain that there will be 2 separate github repositories for this website. This is because hugo (and many website platforms) separate editable content from your live website content (&lsquo;public&rsquo; folder).<br>
 <strong>1. webpage:</strong> This repository will contain the editable contents of your website, which you already generated in step 1.<br>

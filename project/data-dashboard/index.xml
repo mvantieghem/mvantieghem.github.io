@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>COPE Study Data Dashboard | Michelle VanTieghem</title>
+    <link>/project/data-dashboard/</link>
+      <atom:link href="/project/data-dashboard/index.xml" rel="self" type="application/rss+xml" />
+    <description>COPE Study Data Dashboard</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>/project/data-dashboard/featured.jpg</url>
+      <title>COPE Study Data Dashboard</title>
+      <link>/project/data-dashboard/</link>
+    </image>
+    
+  </channel>
+</rss>

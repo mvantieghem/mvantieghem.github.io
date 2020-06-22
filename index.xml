@@ -37,6 +37,38 @@
     </item>
     
     <item>
+      <title>Data Dashboard</title>
+      <link>/project/data-dashboard/</link>
+      <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/project/data-dashboard/</guid>
+      <description>&lt;p&gt;The goal of this study is to understand the impact of the covid-19 pandemic on maternal health and well-being. New and expecting mothers shared their experiences on perinatal health care, employment, family life, and social support during the pandemic, and how they are coping with those challenges.
+Using R shiny, I created an interactive data dashboard to share key findings with our collaborators, partnering clinicians, and the general public.&lt;/p&gt;
+&lt;p&gt;This work was done during my Post-Doc in the Department of Child and Adolescent Psychiatry, NYU Langone Health&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Predicting age from brain imaging data</title>
+      <link>/project/age-brain-prediction/</link>
+      <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/project/age-brain-prediction/</guid>
+      <description>&lt;p&gt;under construction!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Early experience and brain development</title>
+      <link>/project/adversity-brain/</link>
+      <pubDate>Tue, 11 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>/project/adversity-brain/</guid>
+      <description>&lt;h2 id=&#34;phd-thesis-research&#34;&gt;PhD Thesis Research&lt;/h2&gt;
+&lt;p&gt;For my dissertation, I examined how patterns of brain development are influenced by exposure to early adversity. I leveraged existing dataset of repeated structural MRI in youth with and without exposure to early adversity (i.e., institutional care). For this analysis, I focused on two key brain regions linked to mental health risk and early adversity: the amygdala and hippocampus. First, I explored non-linearity in brain development by comparing linear, quadratic, and piecewise effects of age on structural brain volume. Then I compared these patterns between adversity-exposed and non-exposed groups. I found that early adversity was associated with &lt;em&gt;reduced growth rate&lt;/em&gt; of the amygdala and &lt;em&gt;reduced size&lt;/em&gt; of the hippocampus across age. These findings are presented in a pre-print manuscript currently under review.&lt;/p&gt;
+&lt;p&gt;This work was conducted in the Developmental Affective Neuroscience Lab,
+Department of Psychology, Columbia University&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Preprint: Longitudinal changes in Cortisol, Amygdala, and Hippocampus Development following early caregiving adversity</title>
       <link>/publication/sb-monster/</link>
       <pubDate>Sat, 23 Nov 2019 00:00:00 +0000</pubDate>
@@ -516,23 +548,14 @@ Three
     </item>
     
     <item>
-      <title>External Project</title>
-      <link>/project/external-project/</link>
+      <title>Forecasting tool for longitudinal studies</title>
+      <link>/project/study-forecast/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/external-project/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Internal Project</title>
-      <link>/project/internal-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/internal-project/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+      <guid>/project/study-forecast/</guid>
+      <description>&lt;h2 id=&#34;interactive-web-application-for-developmental-researchers&#34;&gt;Interactive web application for developmental researchers&lt;/h2&gt;
+&lt;p&gt;Longitudinal research studies aim to collect data from the same participants over time to measure developmental milestones of interest. Because these studies involve research visits at multiple age-points, they present challenges for project management across long timescales (e.g. 5 years). The optimal study design must be balanced with logistical constraints of the research team, and the burden on participants. Many variables are considered when designing a longitudinal study, from the number of participants per visit, the time intervals between visits, the target age of participants at each visit, and the total duration of the study.&lt;/p&gt;
+&lt;p&gt;I developed interactive tool to visualize how these variables influence the timing and volume of study visits. The web application pulls source data that the researcher provides, which includes study cohort numbers, participant age, and enrichment variables of interest. The output includes summary metrics of the selected sample and figures/tables to visualize the projected volume and timing of research visits over the selected study duration. The researcher can modulate the output to visualize how changes to study design (e.g. number of participants) impact the study schedule. Once the study design has been selected, the output tables can then be used by project managers to effectively plan study operations on a weekly basis.&lt;/p&gt;
+&lt;p&gt;This work was done during my Post-Doc in the Department of Child and Adolescent Psychiatry, NYU Langone Health&lt;/p&gt;
 </description>
     </item>
     

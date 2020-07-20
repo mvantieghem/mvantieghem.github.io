@@ -323,8 +323,7 @@
 
       <div id="search-box">
         
-        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
-        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
         
       </div>
 
@@ -401,7 +400,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#portfolio"><span>Portfolio</span></a>
+          <a class="nav-link " href="/#posts"><span>Blog</span></a>
         </li>
 
         
@@ -421,9 +420,16 @@
         
         
         
+          
+          
+          
+            
+          
+          
+        
 
         <li class="nav-item">
-          <a class="nav-link " href="/tutorials/"><span>R Resources</span></a>
+          <a class="nav-link " href="/#projects"><span>Projects</span></a>
         </li>
 
         
@@ -443,31 +449,16 @@
         
         
         
-
-        <li class="nav-item">
-          <a class="nav-link " href="/files/VanTieghem_resume-2020-06-20.pdf"><span>Resume</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
+          
+          
+          
+            
+          
           
         
 
-        
-        
-        
-        
-        
-        
-
         <li class="nav-item">
-          <a class="nav-link " href="/publication/"><span>Publications</span></a>
+          <a class="nav-link " href="/#publications"><span>Publications</span></a>
         </li>
 
         
@@ -480,10 +471,6 @@
     </div>
 
     <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
-      
-      <li class="nav-item">
-        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
-      </li>
       
 
       
@@ -653,9 +640,19 @@
 
     <div class="article-style">
       <h2 id="interactive-web-application-for-developmental-researchers">Interactive web application for developmental researchers</h2>
-<p>Longitudinal research studies aim to collect data from the same participants over time to measure developmental milestones of interest. Because these studies involve research visits at multiple age-points, they present challenges for project management across long timescales (e.g. 5 years). The optimal study design must be balanced with logistical constraints of the research team, and the burden on participants. Many variables are considered when designing a longitudinal study, from the number of participants per visit, the time intervals between visits, the target age of participants at each visit, and the total duration of the study.</p>
-<p>I developed interactive tool to visualize how these variables influence the timing and volume of study visits. The web application pulls source data that the researcher provides, which includes study cohort numbers, participant age, and enrichment variables of interest. The output includes summary metrics of the selected sample and figures/tables to visualize the projected volume and timing of research visits over the selected study duration. The researcher can modulate the output to visualize how changes to study design (e.g. number of participants) impact the study schedule. Once the study design has been selected, the output tables can then be used by project managers to effectively plan study operations on a weekly basis.</p>
-<p>This work was done during my Post-Doc in the Department of Child and Adolescent Psychiatry, NYU Langone Health</p>
+<p>In developmental psychology, it's common to collect data from the same participants over time to measure developmental milestones of interest. These longitudinal studies involve research visits at multiple time points, presenting challenges for project management across long timescales. The optimal study design to answer a given research question must be balanced with logistical constraints of the research team, and the time burden placed on participating families.</p>
+<p>Many variables are considered when designing a longitudinal study:</p>
+<ul>
+<li>total number of participants (50, or 500?)</li>
+<li>total duration of the study (e.g. 6 months or 6 years?)</li>
+<li>target age of participants at each visit (newborn, 12 months, 5 years?)</li>
+<li>target populations of interest (e.g. low vs. high SES?)</li>
+</ul>
+<p>I developed an 
+<a href="https://mvantieghem.shinyapps.io/longitudinal_study_forecasting" target="_blank" rel="noopener">interactive tool</a>
+ to facilitate study planning for longitudinal research studies. It's specifically geared towards research groups with existing pregnancy cohorts that plan to conduct infant follow-up assessments (e.g. newborn, 6-month and 12-month). Given how rapidly infants reach developmental milestones, the timing of study assessments is extremely important.</p>
+<p>The web application, developed with R shiny, allows the researcher to provide their own source data for their unique study cohort, and see how study decisions impact the long-term study forecast. The source data includes birth dates (or due dates), and any enrichment variables relevant to that cohort (e.g. income brackets). The user can then interactively change the total number of participants to be included, time intervals between visits,  target age of participants at each visit, and the total duration of the study. The output provides summary metrics, with figures to vizualize the projected volume of study visits over time. Once the study design has been selected, the output tables can then be used by project managers to effectively plan study operations and study budgets on a weekly basis.</p>
+<p>This work was done during my Post-doctoral fellowship at NYU Langone Health.</p>
 
     </div>
 
@@ -784,7 +781,7 @@
 
     <div class="media-body">
       <h5 class="card-title"><a href="/">Michelle VanTieghem</a></h5>
-      <h6 class="card-subtitle">Post-doctoral Fellow</h6>
+      
       <p class="card-text">Passionate about generating insights from data that can improve people's health and well-being.</p>
       <ul class="network-icon" aria-hidden="true">
   
@@ -945,24 +942,8 @@
     
 
     
-    
-    <script id="search-hit-fuse-template" type="text/x-template">
-      <div class="search-hit" id="summary-{{key}}">
-      <div class="search-hit-content">
-        <div class="search-hit-name">
-          <a href="{{relpermalink}}">{{title}}</a>
-          <div class="article-metadata search-hit-type">{{type}}</div>
-          <p class="search-hit-description">{{snippet}}</p>
-        </div>
-      </div>
-      </div>
-    </script>
-    
 
     
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
     
 
     
@@ -980,12 +961,10 @@
     
     
     
-      
     
     
     
-    
-    <script src="/js/academic.min.0630fec5958cb075a5a38f042b3ddde6.js"></script>
+    <script src="/js/academic.min.b03c341a9a02bb3d0133df72033e26a2.js"></script>
 
     
 

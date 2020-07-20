@@ -13,6 +13,180 @@
     </image>
     
     <item>
+      <title>Columbia Psychology Scientific Computing</title>
+      <link>/tutorials/cu_psych_computing/</link>
+      <pubDate>Sun, 09 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>/tutorials/cu_psych_computing/</guid>
+      <description>&lt;p&gt;As a graduate student at Columbia University, I contributed to the development of tutorials on data cleaning, modeling and visualization in R. These materials have been used in a series of workshops for graduate students and research assistants in psychology and the social sciences. The tutorials are currently maintained by the Columbia Psychology Scientific Computing group.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://cu-psych-computing.github.io/cu-psych-comp-tutorial/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Intro to Coding for Social Scientists in R and python&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://cu-psych-computing.github.io/cu-psych-comp-tutorial/R/extraTutorials/ggplotExtra/ggplot_summer2018_part1.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Data visualization with ggplot&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;a href=&#34;https://cu-psych-computing.github.io/cu-psych-comp-tutorial/R/extraTutorials/tidyverseGuide/tidyguide_1.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A guided tour of the tidyverse&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;
+&amp;hellip;and more!&lt;br&gt;
+&lt;br&gt;
+Click 
+&lt;a href=&#34;https://cu-psych-computing.github.io/cu-psych-comp-tutorial/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;
+ for the homepage with the full tutorial repository.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Make a website using R and Github pages</title>
+      <link>/tutorials/website_tutorial/</link>
+      <pubDate>Sun, 09 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>/tutorials/website_tutorial/</guid>
+      <description>&lt;h3 id=&#34;why-make-a-website-using-r-studio-and-github-pages&#34;&gt;Why make a website using R studio and github pages?&lt;/h3&gt;
+&lt;p&gt;You&#39;re an R user who is looking to make a professional webpage that:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Takes advantage of 
+&lt;a href=&#34;https://themes.gohugo.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo website themes&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Doesn&#39;t require learning html or java&lt;/li&gt;
+&lt;li&gt;Can be hosted on a free domain 
+&lt;a href=&#34;https://pages.github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(Github Pages)&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;em&gt;Note: This tutorial assumes that you have basic proficiency using Github, R studio, and github repositories with R projects.&lt;/em&gt;
+If you aren&#39;t comfortable with this yet, start 
+&lt;a href=&#34;https://happygitwithr.com/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;
+ instead.&lt;/p&gt;
+&lt;p&gt;*Disclaimer: This is meant to be a quick step-by-step guide to generate a webpage from beginning to end. For more a more extensive guide on all things related to using blogdown, see the official 
+&lt;a href=&#34;https://bookdown.org/yihui/blogdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blogdown documentation&lt;/a&gt;
+.&lt;/p&gt;
+&lt;h2 id=&#34;part-1-build-your-website&#34;&gt;Part 1: Build your website&lt;/h2&gt;
+&lt;h3 id=&#34;11-choose-a-theme-for-your-website&#34;&gt;1.1 Choose a theme for your website&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Hugo has a wide array of website themes, which can be found 
+&lt;a href=&#34;https://themes.gohugo.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here.&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Themes dictate both the aethetics and the format of a website.&lt;/li&gt;
+&lt;li&gt;Choose wisely. Once you start with a certain theme, it&#39;s hard to switch themes later.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;12-use-blogdown-to-generate-a-website-template&#34;&gt;1.2 Use blogdown to generate a website template&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Once you&#39;ve chosen a theme, click &amp;ldquo;Homepage&amp;rdquo; on the theme website, which leads you to the owner&#39;s github repository for the theme. We will use this github project (e.g. &amp;ldquo;user/themename&amp;rdquo;) as input to the blogdown::new_website function. Step by step instructions below:&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;in R studio, install the blogdown package and load the library.&lt;br&gt;
+&lt;strong&gt;install.packages(&amp;lsquo;blogdown&amp;rsquo;)&lt;/strong&gt;
+&lt;strong&gt;install.packages(&amp;lsquo;hugo&amp;rsquo;)&lt;/strong&gt;
+&lt;strong&gt;library(blogdown)&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Make a brand new R project in a &lt;em&gt;new&lt;/em&gt; directory&lt;br&gt;
+&lt;strong&gt;File &amp;ndash;&amp;gt; New Project  &amp;ndash;&amp;gt; New directory &amp;ndash;&amp;gt; choose location&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Generate a website from the theme template in your R Project.&lt;br&gt;
+&lt;strong&gt;blogdown::new_website(theme = &amp;ldquo;user/themename&amp;rdquo;)&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;13-edit-content-on-your-website&#34;&gt;1.3 Edit content on your website&lt;/h3&gt;
+&lt;p&gt;Every theme has a slightly different setup, but we will walk through the basic overview. You can also read the theme documentation for more details on your chosen theme.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Config and menu files&lt;/strong&gt; contain the backbone structure of your website. Config files designate the url, theme, and title of your website. Menu files designate the &amp;ldquo;widgets&amp;rdquo; or components of your website (which varies by theme). Disclaimer: depending on the theme, these files may be in the main directory or different locations (e.g. in the &amp;ldquo;data&amp;rdquo; or &amp;ldquo;config&amp;rdquo; folders) and might end with either &amp;ldquo;.toml&amp;rdquo; or &amp;ldquo;.yml&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Content:&lt;/strong&gt; This is where most of your editing will take place. The organization of this folder will vary depending on your chosen theme, and the files here should coincide with your menu.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Static:&lt;/strong&gt; This is the storage location for any static files that you add to your website. For example, you can add PDF files or images that you link in the content.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Themes:&lt;/strong&gt; This stores the necessary code to build the website using your chosen theme. &lt;em&gt;Do not edit!&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Public:&lt;/strong&gt; Contains the live website, built from the contents and configurations. &lt;em&gt;Do not edit!&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It will take some trial-and-error to figure out how changes in these files correspond to changes in the website. Try making a simple change first, like changing the title of your webpage in the config file, annd see how it changes your webpage. The next step describes how to preview your site.&lt;/p&gt;
+&lt;h3 id=&#34;14-preview-your-website-as-you-make-changes&#34;&gt;1.4 Preview your website as you make changes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;You can see changes live as you save them by rendering the site&lt;br&gt;
+&lt;strong&gt;blogdown::serve_site()&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;The webpage will automatically display in the viewer panel of R studio.&lt;/li&gt;
+&lt;li&gt;To see the webpage preview in full size, click &lt;strong&gt;open in a new window&lt;/strong&gt; (on the top left of the Viewer panel) to open it in your browser.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;Do I need to run serve_site() after every change I make?&lt;/em&gt;&lt;br&gt;
+It depends. After running it once, the webpage preview will automatically refresh after each time you save changes to existing files, but if you remove or add new widgets, you will need to re-run the command to view those structural changes.&lt;/p&gt;
+&lt;h2 id=&#34;part-2-link-the-website-to-github&#34;&gt;Part 2: Link the website to github&lt;/h2&gt;
+&lt;p&gt;Before we start, it&#39;s important to explain that there will be 2 separate github repositories for this website. This is because hugo (and many website platforms) separate editable content from your live website content (&amp;lsquo;public&amp;rsquo; folder).&lt;br&gt;
+&lt;strong&gt;1. webpage:&lt;/strong&gt; This repository will contain the editable contents of your website, which you already generated in step 1.&lt;br&gt;
+&lt;strong&gt;2. username.github.io:&lt;/strong&gt; This repository will be a submodule of the &amp;lsquo;webpage&amp;rsquo; repository. It contains the &amp;lsquo;public&amp;rsquo; folder of your website, and is used to generate your live website on github pages.&lt;/p&gt;
+&lt;h3 id=&#34;21-make-a-webpage-repository&#34;&gt;2.1 Make a &amp;lsquo;webpage&amp;rsquo; repository&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;make a new repository on github, and call it &amp;lsquo;webpage&amp;rsquo; or whatever you&#39;d like to call your main website repo. Don&#39;t add anything to the repository yet!&lt;/li&gt;
+&lt;li&gt;Copy the &amp;lsquo;clone&amp;rsquo; link for your new repository.&lt;/li&gt;
+&lt;li&gt;Open R studio and click File &amp;ndash;&amp;gt; New Project.&lt;/li&gt;
+&lt;li&gt;Choose &amp;lsquo;from version control&amp;rsquo; and &amp;lsquo;Github&amp;rsquo; in the project options.&lt;/li&gt;
+&lt;li&gt;Create your R project using the copied repository link.&lt;/li&gt;
+&lt;li&gt;Then copy the entire contents of your Hugo website into the new R project directory &amp;amp; close your R project.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;22-make-the-usernamegithubio-repository-and-add-it-as-a-submodule&#34;&gt;2.2 Make the &amp;lsquo;username.github.io&amp;rsquo; repository and add it as a submodule.&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Make a new repository on github called &lt;strong&gt;username.github.io&lt;/strong&gt;. Github pages will automatically generate a webpage from any repository with this specific name, so unfortunately you cannot be creative here!&lt;/li&gt;
+&lt;li&gt;Open terminal and navigate to your webpage directory on your local machine:&lt;br&gt;
+&lt;strong&gt;cd /your-local-directories/webpage/&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Delete your public repository: &lt;strong&gt;rm -rf public&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Now we are going to add our &amp;lsquo;username.github.io&amp;rsquo; repository as a submodule of the &amp;lsquo;webpage&amp;rsquo; repository: &lt;strong&gt;submodule add -b master &lt;a href=&#34;https://github.com/username/username.github.io.git&#34;&gt;https://github.com/username/username.github.io.git&lt;/a&gt; public&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Next time we serve the site, the &amp;lsquo;username.github.io.git&amp;rsquo; repository will contain the contents of the &amp;lsquo;public&amp;rsquo; directory.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;23-set-your-website-html-address&#34;&gt;2.3 Set your website html address&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Open the &lt;strong&gt;config.toml&lt;/strong&gt; file in the home directory of your webpage_hugo R project.&lt;/li&gt;
+&lt;li&gt;Replace the baseURL &lt;a href=&#34;https://example.com&#34;&gt;https://example.com&lt;/a&gt; with your github page domain: &lt;strong&gt;&lt;a href=&#34;https://username.github.io&#34;&gt;https://username.github.io&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Save the changes to the config.toml file.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For additional information and trouble-shooting, see the related 
+&lt;a href=&#34;https://gohugo.io/hosting-and-deployment/hosting-on-github/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo documentation&lt;/a&gt;
+ for hosting websites on github pages.&lt;/p&gt;
+&lt;h2 id=&#34;part-3-serve-website&#34;&gt;Part 3: Serve website&lt;/h2&gt;
+&lt;h3 id=&#34;31-edit-content-on-your-webpage&#34;&gt;3.1 Edit content on your webpage&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Open your &amp;lsquo;webpage&amp;rsquo; R project to continue editing content on your website.&lt;/li&gt;
+&lt;li&gt;Re-generate the public folder with updated content: &lt;strong&gt;blogdown::serve_site()&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;32-deploy-your-changes-to-the-live-website&#34;&gt;3.2 Deploy your changes to the live website&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Here, we are going to push the changes to the &amp;lsquo;public&amp;rsquo; directory to our &amp;lsquo;username.github.io&amp;rsquo; repository. This step has to be done in terminal, not R studio.&lt;/li&gt;
+&lt;li&gt;In terminal, navigate to the public folder of the &amp;lsquo;webpage&amp;rsquo; directory.&lt;br&gt;
+&lt;strong&gt;cd webpage/public&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Add, commit and push your changes with the following lines of code:&lt;br&gt;
+&lt;strong&gt;git add .&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;git commit -m &amp;ldquo;my message here&amp;rdquo;&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;git push origin master&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Check your live website updates at &lt;strong&gt;username.github.io&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;33-track-your-content-changes-to-the-website-repository&#34;&gt;3.3 Track your content changes to the website repository&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Here, we are  going to push the changes of the &amp;lsquo;webpage&amp;rsquo; directory to the &amp;lsquo;webpage&amp;rsquo; repository. I prefer to do this using R studio.&lt;/li&gt;
+&lt;li&gt;Exclude the &amp;lsquo;public&amp;rsquo; folder from being tracked by adding this line to your .gitignore file: &lt;strong&gt;public/&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Make sure you commit &amp;amp; push the updated .gitignore file too.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You now have a functioning website built with github, R and hugo!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Project management with Github and R projects</title>
+      <link>/tutorials/git_and_r/</link>
+      <pubDate>Sun, 09 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>/tutorials/git_and_r/</guid>
+      <description>&lt;p&gt;Have you ever wondered&amp;hellip;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;What are R projects, and why do I need to use them?&lt;/li&gt;
+&lt;li&gt;Why is version control important for research projects?&lt;/li&gt;
+&lt;li&gt;What tools are available to make github and R more user-friendly to a beginner?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;In the Tottenham lab at Columbia, I held a workshop for graduate students and research assistants on these topics. The slides can be found 
+&lt;a href=&#34;https://github.com/cu-psych-computing/cu-psych-comp-tutorial/tree/gh-pages/R/extraTutorials/github&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;For more details on how to integrate github into your R workflow, check out 
+&lt;a href=&#34;https://happygitwithr.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Happy Git and GitHub for the useR&lt;/a&gt;
+ by Jenny Bryan.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Example Talk</title>
       <link>/talk/example/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
@@ -37,21 +211,126 @@
     </item>
     
     <item>
+      <title>Building a Website with Blogdown, Hugo and Github Pages</title>
+      <link>/post/hugo_webpage/</link>
+      <pubDate>Tue, 14 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/post/hugo_webpage/</guid>
+      <description>&lt;p&gt;A few months ago, I attended an 
+&lt;a href=&#34;https://www.rladiesnyc.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R ladies NYC&lt;/a&gt;
+ workshop on creating websites with 
+&lt;a href=&#34;https://bookdown.org/yihui/blogdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blogdown&lt;/a&gt;
+ with 
+&lt;a href=&#34;https://themes.gohugo.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo themes.&lt;/a&gt;
+ For the R user who is looking to generate their own webpage - look no further! The Blogdown R package has powerful capabilities without needing to learn html or java, and Hugo has a seemingly endless choice of beautiful website themes. There are many resources available, but it&#39;s easy to get bogged down in the details when you&#39;re just getting started.&lt;/p&gt;
+&lt;p&gt;Here, I am going to walk through a step-by-step guide to generate a webpage from beginning to end, using  &lt;strong&gt;Blogdown, Hugo and Github pages.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Why use 
+&lt;a href=&#34;https://pages.github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github pages&lt;/a&gt;
+ to deploy the website? First, it&#39;s free - every github user has a free domain to use. Second, it&#39;s easily linked to your github profile. Third, it really encourages you to version control your website!&lt;/p&gt;
+&lt;h2 id=&#34;part-1-build-your-website&#34;&gt;Part 1: Build your website&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Choose a theme for your website&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Hugo has a wide array of website themes, which can be found 
+&lt;a href=&#34;https://themes.gohugo.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here.&lt;/a&gt;
+ Themes dictate both the aethetics and the format of a website. Choose wisely - once you start with a certain theme, it&#39;s hard to switch themes later.&lt;/p&gt;
+&lt;p&gt;After you&#39;ve chosen a theme, click &amp;ldquo;Homepage&amp;rdquo; on the theme website, which leads you to the owner&#39;s github repository for the theme. We will use this github project (e.g. &amp;ldquo;user/themename&amp;rdquo;) as input to the blogdown::new_website function.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Use blogdown to generate a website template&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Now we&#39;re ready to start working with blogdown. Start a new R project, and then generate a new blogdown website using your chosen theme.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;install.packages(&#39;blogdown&#39;)
+install.packages(&#39;hugo&#39;)
+library(blogdown)
+blogdown::new_website(theme = &amp;quot;user/themename&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;Edit content on your website&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Every theme has a slightly different setup, but we will walk through the basic overview. I also recommend reading the theme documentation for more details.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Config and menu files:&lt;/strong&gt; Contain the backbone structure of your website. Config files designate the url, theme, and title of your website. Menu files designate the &amp;ldquo;widgets&amp;rdquo; or components of your website (which varies by theme). &lt;em&gt;Disclaimer: depending on the theme, these files may be in the main directory or different locations (e.g. in the &amp;ldquo;data&amp;rdquo; or &amp;ldquo;config&amp;rdquo; folders) and might end with either &amp;ldquo;.toml&amp;rdquo; or &amp;ldquo;.yml&amp;rdquo;.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Content:&lt;/strong&gt; Where most of your editing will take place. The organization of this folder will vary depending on your chosen theme, and the files here should coincide with your menu.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Static:&lt;/strong&gt; The storage location for any static files that you add to your website. For example, you can add PDF files or images that you link in the content.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Themes:&lt;/strong&gt; Stores the necessary code to build the website using your chosen theme. &lt;em&gt;Do not edit!&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Public:&lt;/strong&gt; Contains the live website, built from the contents and configurations. &lt;em&gt;Do not edit!&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Preview your changes&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Blogdown also makes it really easy to preview changes. With this commmand, the webpage will display in the viewer panel and can be expanded to full view, just like any other html document.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;blogdown::serve_site()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;There is some trial-and-error to figure out how changes in the content files correspond to changes in the website. Try making a simple change first, like changing the title of your webpage in the config file, and see how it changes your webpage.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Do I need to run serve_site() after every change I make?&lt;/em&gt;&lt;br&gt;
+It depends. After running it once, the webpage preview will automatically refresh after each time you save changes to existing files, but if you remove or add new widgets, you will need to re-run the command to view those structural changes.&lt;/p&gt;
+&lt;h2 id=&#34;part-2-link-the-website-to-github--github-pages&#34;&gt;Part 2: Link the website to Github &amp;amp; Github pages&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Make a &amp;lsquo;webpage&amp;rsquo; repository&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Websites change, and websites also break&amp;hellip; but this all becomes much more manageable with version control! First, you want to make a new github repository, and link it to a new R project.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Not familiar with linking github and R?&lt;/em&gt;
+When making a new new R project, choose the option &amp;lsquo;from version control&amp;rsquo;, then &amp;lsquo;Github&amp;rsquo;. On the next page, add the link to your git repository.&lt;/p&gt;
+&lt;p&gt;The &amp;lsquo;public&amp;rsquo; folder should not be added to this  repository!
+An easy way to deal with this is to add the public directory to your .gitignore file.&lt;/p&gt;
+&lt;p&gt;When you&#39;re happy with the content of your webpage, add, commit and push the website content to the ‘webpage’ repository.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Make a &amp;lsquo;github pages&amp;rsquo; repository&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Hugo, like many other website platforms, separates the editable content of your website from the &lt;em&gt;live&lt;/em&gt; website content, also commonly referred to as the &amp;ldquo;public&amp;rdquo; content. To deploy the website, we will sync the &amp;ldquo;public&amp;rdquo; folder to Github pages.&lt;/p&gt;
+&lt;p&gt;First, make a new repository on github called &lt;strong&gt;username.github.io&lt;/strong&gt;. Github pages will automatically generate a webpage from any repository with this specific name, so unfortunately you cannot be creative here. Then, add the &amp;lsquo;username.github.io&amp;rsquo; repository as a submodule of the &amp;lsquo;webpage&amp;rsquo; repository.&lt;/p&gt;
+&lt;p&gt;For these few lines of code, we need to excute git commands in terminal, outside of R studio.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-terminal&#34;&gt;cd /path-to-webpage/** 
+rm -rf public
+submodule add -b master https://github.com/username/username.github.io.git public
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This enables the &amp;lsquo;username.github.io.git&amp;rsquo; repository to contain only the &amp;lsquo;public&amp;rsquo; directory of your website.&lt;/p&gt;
+&lt;p&gt;Finally, update the website address in the &lt;strong&gt;config.toml&lt;/strong&gt; file. Simply replace &amp;ldquo;baseURL&amp;rdquo; with your github pages url (&lt;a href=&#34;https://username.github.io)&#34;&gt;https://username.github.io)&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Deploy your changes to the live website&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;When you&#39;re ready to make your webpage live, the process is pretty painless. Simply add, commit and push your public website content to the github pages repsitory, and the webpage will automatically update at &lt;a href=&#34;https://username.github.io&#34;&gt;https://username.github.io&lt;/a&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-terminal&#34;&gt;cd webpage/public
+git add . 
+git commit -m &amp;quot;my message here&amp;quot;
+git push origin master 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You now have a functioning website built with github, R and hugo!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Further reading&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;For additional information and trouble-shooting, see the related 
+&lt;a href=&#34;https://gohugo.io/hosting-and-deployment/hosting-on-github/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo documentation&lt;/a&gt;
+ for hosting websites on github pages.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;For an excellent resource on using github with R, check out this excellent resource: 
+&lt;a href=&#34;https://happygitwithr.com/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Happy Git with R&lt;/a&gt;
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;For more blogdown details, far beyond the scope covered here: 
+&lt;a href=&#34;https://bookdown.org/yihui/blogdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blogdown documentation&lt;/a&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Data Dashboard</title>
       <link>/project/data-dashboard/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
       <guid>/project/data-dashboard/</guid>
-      <description>&lt;p&gt;The goal of this study is to understand the impact of the covid-19 pandemic on maternal health and well-being. New and expecting mothers shared their experiences on perinatal health care, employment, family life, and social support during the pandemic, and how they are coping with those challenges.
-Using R shiny, I created an interactive data dashboard to share key findings with our collaborators, partnering clinicians, and the general public.&lt;/p&gt;
-&lt;p&gt;This work was done during my Post-Doc in the Department of Child and Adolescent Psychiatry, NYU Langone Health&lt;/p&gt;
+      <description>&lt;p&gt;During my post-doctoral fellowship at NYU Langone Health, I worked on a research project that assessed the impact of the covid-19 pandemic on maternal health and well-being.  New and expecting mothers shared their experiences during the covid-19 pandemic and how they are coping with those challenges. These data were collected via remote surveys from women in the NYC metropolitan area from April - July 2020.&lt;/p&gt;
+&lt;p&gt;In order to facilitate rapid dissemination of our research relating to Covid-19, I used R shiny to develop an interactive 
+&lt;a href=&#34;https://mvantieghem.shinyapps.io/cope_data_dashboard/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;data dashboard&lt;/a&gt;
+ that displays key findings from this study. We show how the covid-19 pandemic has impacted various aspects of women&#39;s lives, from major changes to perinatal healthcare, to their concerns about disruptions to social, economic, and family life.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Code and analyses 
+&lt;a href=&#34;https://github.com/mvantieghem/cope_study_dashboard&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;More information on the 
+&lt;a href=&#34;https://www.babybees.org/cope-study&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cope Study&lt;/a&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
     <item>
       <title>Predicting age from brain imaging data</title>
-      <link>/project/age-brain-prediction/</link>
+      <link>/blog_drafts/age-brain-prediction/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/project/age-brain-prediction/</guid>
+      <guid>/blog_drafts/age-brain-prediction/</guid>
       <description>&lt;p&gt;under construction!&lt;/p&gt;
 </description>
     </item>
@@ -62,9 +341,14 @@ Using R shiny, I created an interactive data dashboard to share key findings wit
       <pubDate>Tue, 11 Feb 2020 00:00:00 +0000</pubDate>
       <guid>/project/adversity-brain/</guid>
       <description>&lt;h2 id=&#34;phd-thesis-research&#34;&gt;PhD Thesis Research&lt;/h2&gt;
-&lt;p&gt;For my dissertation, I examined how patterns of brain development are influenced by exposure to early adversity. I leveraged existing dataset of repeated structural MRI in youth with and without exposure to early adversity (i.e., institutional care). For this analysis, I focused on two key brain regions linked to mental health risk and early adversity: the amygdala and hippocampus. First, I explored non-linearity in brain development by comparing linear, quadratic, and piecewise effects of age on structural brain volume. Then I compared these patterns between adversity-exposed and non-exposed groups. I found that early adversity was associated with &lt;em&gt;reduced growth rate&lt;/em&gt; of the amygdala and &lt;em&gt;reduced size&lt;/em&gt; of the hippocampus across age. These findings are presented in a pre-print manuscript currently under review.&lt;/p&gt;
-&lt;p&gt;This work was conducted in the Developmental Affective Neuroscience Lab,
-Department of Psychology, Columbia University&lt;/p&gt;
+&lt;p&gt;In my graduate research, I studied the role of early experiences on brain maturation and later mental health risk. My dissertation research used structural MRI to identify how patterns of brain development differed following exposure to early adversity. I focused on brain regions that are important for processing emotions (amygdala and hippocampus) and implicated in mental health risk. My research showed that exposure to early adversity was linked to differences in the size and growth of these brain regions across childhood and adolescence. Importantly, these neurobiological changes were also associated with increased anxiety and depressive symptoms. These findings contribute to the body of knowledge idenifying how early adverse experiences can &amp;lsquo;get under the skin&amp;rsquo; to influence long-term health outcomes.&lt;/p&gt;
+&lt;p&gt;These findings are presented in a 
+&lt;a href=&#34;https://osf.io/9au4v/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pre-print manuscript&lt;/a&gt;
+ currently under review.&lt;/p&gt;
+&lt;p&gt;This work was conducted in the 
+&lt;a href=&#34;https://danlab7.wixsite.com/mysite&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Developmental Affective Neuroscience Lab&lt;/a&gt;
+,
+Department of Psychology, Columbia University.&lt;/p&gt;
 </description>
     </item>
     
@@ -77,302 +361,11 @@ Department of Psychology, Columbia University&lt;/p&gt;
     </item>
     
     <item>
-      <title>Writing technical content in Academic</title>
-      <link>/post/writing-technical-content/</link>
-      <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>/post/writing-technical-content/</guid>
-      <description>&lt;p&gt;Academic is designed to give technical content creators a seamless experience. You can focus on the content and Academic handles the rest.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;On this page, you&#39;ll find some examples of the types of technical content that can be rendered with Academic.&lt;/p&gt;
-&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
-&lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
-&lt;p&gt;Academic supports a Markdown extension for highlighting code syntax. You can enable this feature by toggling the &lt;code&gt;highlight&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```python
-import pandas as pd
-data = pd.read_csv(&amp;quot;data.csv&amp;quot;)
-data.head()
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import pandas as pd
-data = pd.read_csv(&amp;quot;data.csv&amp;quot;)
-data.head()
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;math&#34;&gt;Math&lt;/h3&gt;
-&lt;p&gt;Academic supports a Markdown extension for $\LaTeX$ math. You can enable this feature by toggling the &lt;code&gt;math&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file.&lt;/p&gt;
-&lt;p&gt;To render &lt;em&gt;inline&lt;/em&gt; or &lt;em&gt;block&lt;/em&gt; math, wrap your LaTeX math with &lt;code&gt;$...$&lt;/code&gt; or &lt;code&gt;$$...$$&lt;/code&gt;, respectively.&lt;/p&gt;
-&lt;p&gt;Example &lt;strong&gt;math block&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-tex&#34;&gt;$$\gamma_{n} = \frac{ 
-\left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T 
-\left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}
-{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;p&gt;$$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left |\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right |^2}$$&lt;/p&gt;
-&lt;p&gt;Example &lt;strong&gt;inline math&lt;/strong&gt; &lt;code&gt;$\nabla F(\mathbf{x}_{n})$&lt;/code&gt; renders as $\nabla F(\mathbf{x}_{n})$.&lt;/p&gt;
-&lt;p&gt;Example &lt;strong&gt;multi-line math&lt;/strong&gt; using the &lt;code&gt;\\&lt;/code&gt; math linebreak:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-tex&#34;&gt;$$f(k;p_0^*) = \begin{cases} p_0^* &amp;amp; \text{if }k=1, \\
-1-p_0^* &amp;amp; \text {if }k=0.\end{cases}$$
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;p&gt;$$f(k;p_0^*) = \begin{cases} p_0^* &amp;amp; \text{if }k=1, \&lt;br&gt;
-1-p_0^* &amp;amp; \text {if }k=0.\end{cases}$$&lt;/p&gt;
-&lt;h3 id=&#34;diagrams&#34;&gt;Diagrams&lt;/h3&gt;
-&lt;p&gt;Academic supports a Markdown extension for diagrams. You can enable this feature by toggling the &lt;code&gt;diagram&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file or by adding &lt;code&gt;diagram: true&lt;/code&gt; to your page front matter.&lt;/p&gt;
-&lt;p&gt;An example &lt;strong&gt;flowchart&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-graph TD
-A[Hard] --&amp;gt;|Text| B(Round)
-B --&amp;gt; C{Decision}
-C --&amp;gt;|One| D[Result 1]
-C --&amp;gt;|Two| E[Result 2]
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;graph TD
-A[Hard] --&amp;gt;|Text| B(Round)
-B --&amp;gt; C{Decision}
-C --&amp;gt;|One| D[Result 1]
-C --&amp;gt;|Two| E[Result 2]
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;An example &lt;strong&gt;sequence diagram&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-sequenceDiagram
-Alice-&amp;gt;&amp;gt;John: Hello John, how are you?
-loop Healthcheck
-    John-&amp;gt;&amp;gt;John: Fight against hypochondria
-end
-Note right of John: Rational thoughts!
-John--&amp;gt;&amp;gt;Alice: Great!
-John-&amp;gt;&amp;gt;Bob: How about you?
-Bob--&amp;gt;&amp;gt;John: Jolly good!
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;sequenceDiagram
-Alice-&amp;gt;&amp;gt;John: Hello John, how are you?
-loop Healthcheck
-    John-&amp;gt;&amp;gt;John: Fight against hypochondria
-end
-Note right of John: Rational thoughts!
-John--&amp;gt;&amp;gt;Alice: Great!
-John-&amp;gt;&amp;gt;Bob: How about you?
-Bob--&amp;gt;&amp;gt;John: Jolly good!
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;An example &lt;strong&gt;Gantt diagram&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-gantt
-section Section
-Completed :done,    des1, 2014-01-06,2014-01-08
-Active        :active,  des2, 2014-01-07, 3d
-Parallel 1   :         des3, after des1, 1d
-Parallel 2   :         des4, after des1, 1d
-Parallel 3   :         des5, after des3, 1d
-Parallel 4   :         des6, after des4, 1d
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;gantt
-section Section
-Completed :done,    des1, 2014-01-06,2014-01-08
-Active        :active,  des2, 2014-01-07, 3d
-Parallel 1   :         des3, after des1, 1d
-Parallel 2   :         des4, after des1, 1d
-Parallel 3   :         des5, after des3, 1d
-Parallel 4   :         des6, after des4, 1d
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;An example &lt;strong&gt;class diagram&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-classDiagram
-Class01 &amp;lt;|-- AveryLongClass : Cool
-&amp;lt;&amp;lt;interface&amp;gt;&amp;gt; Class01
-Class09 --&amp;gt; C2 : Where am i?
-Class09 --* C3
-Class09 --|&amp;gt; Class07
-Class07 : equals()
-Class07 : Object[] elementData
-Class01 : size()
-Class01 : int chimp
-Class01 : int gorilla
-class Class10 {
-  &amp;lt;&amp;lt;service&amp;gt;&amp;gt;
-  int id
-  size()
-}
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;classDiagram
-Class01 &amp;lt;|-- AveryLongClass : Cool
-&amp;lt;&amp;lt;interface&amp;gt;&amp;gt; Class01
-Class09 --&amp;gt; C2 : Where am i?
-Class09 --* C3
-Class09 --|&amp;gt; Class07
-Class07 : equals()
-Class07 : Object[] elementData
-Class01 : size()
-Class01 : int chimp
-Class01 : int gorilla
-class Class10 {
-  &amp;lt;&amp;lt;service&amp;gt;&amp;gt;
-  int id
-  size()
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;An example &lt;strong&gt;state diagram&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-stateDiagram
-[*] --&amp;gt; Still
-Still --&amp;gt; [*]
-Still --&amp;gt; Moving
-Moving --&amp;gt; Still
-Moving --&amp;gt; Crash
-Crash --&amp;gt; [*]
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;stateDiagram
-[*] --&amp;gt; Still
-Still --&amp;gt; [*]
-Still --&amp;gt; Moving
-Moving --&amp;gt; Still
-Moving --&amp;gt; Crash
-Crash --&amp;gt; [*]
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;todo-lists&#34;&gt;Todo lists&lt;/h3&gt;
-&lt;p&gt;You can even write your todo lists in Academic too:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;- [x] Write math example
-- [x] Write diagram example
-- [ ] Do something else
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt;Write math example&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt;Write diagram example&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt;Do something else&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;tables&#34;&gt;Tables&lt;/h3&gt;
-&lt;p&gt;Represent your data in tables:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;First Header&lt;/th&gt;
-&lt;th&gt;Second Header&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Content Cell&lt;/td&gt;
-&lt;td&gt;Content Cell&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Content Cell&lt;/td&gt;
-&lt;td&gt;Content Cell&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id=&#34;asides&#34;&gt;Asides&lt;/h3&gt;
-&lt;p&gt;Academic supports a 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/#alerts&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcode for asides&lt;/a&gt;
-, also referred to as &lt;em&gt;notices&lt;/em&gt;, &lt;em&gt;hints&lt;/em&gt;, or &lt;em&gt;alerts&lt;/em&gt;. By wrapping a paragraph in &lt;code&gt;{{% alert note %}} ... {{% /alert %}}&lt;/code&gt;, it will render as an aside.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% alert note %}}
-A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-{{% /alert %}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;h3 id=&#34;icons&#34;&gt;Icons&lt;/h3&gt;
-&lt;p&gt;Academic enables you to use a wide range of 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/page-builder/#icons&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;icons from &lt;em&gt;Font Awesome&lt;/em&gt; and &lt;em&gt;Academicons&lt;/em&gt;&lt;/a&gt;
- in addition to 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/#emojis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;emojis&lt;/a&gt;
-.&lt;/p&gt;
-&lt;p&gt;Here are some examples using the &lt;code&gt;icon&lt;/code&gt; shortcode to render icons:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; icon name=&amp;quot;terminal&amp;quot; pack=&amp;quot;fas&amp;quot; &amp;gt;}} Terminal  
-{{&amp;lt; icon name=&amp;quot;python&amp;quot; pack=&amp;quot;fab&amp;quot; &amp;gt;}} Python  
-{{&amp;lt; icon name=&amp;quot;r-project&amp;quot; pack=&amp;quot;fab&amp;quot; &amp;gt;}} R
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;p&gt;
-  &lt;i class=&#34;fas fa-terminal  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Terminal&lt;br&gt;
-
-  &lt;i class=&#34;fab fa-python  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Python&lt;br&gt;
-
-  &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; R&lt;/p&gt;
-&lt;h3 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h3&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Using a Developmental Ecology Framework to Align Fear Neurobiology Across Species</title>
       <link>/publication/annual-reviews-clinical/</link>
       <pubDate>Sat, 23 Feb 2019 00:00:00 +0000</pubDate>
       <guid>/publication/annual-reviews-clinical/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Display Jupyter Notebooks with Academic</title>
-      <link>/post/jupyter/</link>
-      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/post/jupyter/</guid>
-      <description>&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from IPython.core.display import Image
-Image(&#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&#39;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./index_1_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;print(&amp;quot;Welcome to Academic!&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;Welcome to Academic!
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;install-python-and-jupyterlab&#34;&gt;Install Python and JupyterLab&lt;/h2&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://www.anaconda.com/distribution/#download-section&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Install Anaconda&lt;/a&gt;
- which includes Python 3 and JupyterLab.&lt;/p&gt;
-&lt;p&gt;Alternatively, install JupyterLab with &lt;code&gt;pip3 install jupyterlab&lt;/code&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;create-or-upload-a-jupyter-notebook&#34;&gt;Create or upload a Jupyter notebook&lt;/h2&gt;
-&lt;p&gt;Run the following commands in your Terminal, substituting &lt;code&gt;&amp;lt;MY-WEBSITE-FOLDER&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;SHORT-POST-TITLE&amp;gt;&lt;/code&gt; with the file path to your Academic website folder and a short title for your blog post (use hyphens instead of spaces), respectively:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;mkdir -p &amp;lt;MY-WEBSITE-FOLDER&amp;gt;/content/post/&amp;lt;SHORT-POST-TITLE&amp;gt;/
-cd &amp;lt;MY-WEBSITE-FOLDER&amp;gt;/content/post/&amp;lt;SHORT-POST-TITLE&amp;gt;/
-jupyter lab index.ipynb
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The &lt;code&gt;jupyter&lt;/code&gt; command above will launch the JupyterLab editor, allowing us to add Academic metadata and write the content.&lt;/p&gt;
-&lt;h2 id=&#34;edit-your-post-metadata&#34;&gt;Edit your post metadata&lt;/h2&gt;
-&lt;p&gt;The first cell of your Jupter notebook will contain your post metadata (
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/front-matter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;front matter&lt;/a&gt;
-).&lt;/p&gt;
-&lt;p&gt;In Jupter, choose &lt;em&gt;Markdown&lt;/em&gt; as the type of the first cell and wrap your Academic metadata in three dashes, indicating that it is YAML front matter:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;---
-title: My post&#39;s title
-date: 2019-09-01
-
-# Put any other Academic metadata here...
----
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Edit the metadata of your post, using the 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;documentation&lt;/a&gt;
- as a guide to the available options.&lt;/p&gt;
-&lt;p&gt;To set a 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#featured-image&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;featured image&lt;/a&gt;
-, place an image named &lt;code&gt;featured&lt;/code&gt; into your post&#39;s folder.&lt;/p&gt;
-&lt;p&gt;For other tips, such as using math, see the guide on 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;writing content with Academic&lt;/a&gt;
-.&lt;/p&gt;
-&lt;h2 id=&#34;convert-notebook-to-markdown&#34;&gt;Convert notebook to Markdown&lt;/h2&gt;
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;jupyter nbconvert index.ipynb --to markdown --NbConvertApp.output_files_dir=.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;
-&lt;p&gt;This post was created with Jupyter. The orginal files can be found at &lt;a href=&#34;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&#34;&gt;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&lt;/a&gt;&lt;/p&gt;
-</description>
     </item>
     
     <item>
@@ -540,7 +533,7 @@ Three
     </item>
     
     <item>
-      <title>Neurobiological programming of early life stress: Functional development of amygdala-prefrontal circuitry and vulnerability for stress-relaed psychopathology</title>
+      <title>Neurobiological programming of early life stress: Functional development of amygdala-prefrontal circuitry and vulnerability for stress-related psychopathology</title>
       <link>/publication/neurobio-review/</link>
       <pubDate>Sat, 07 Jan 2017 00:00:00 +0000</pubDate>
       <guid>/publication/neurobio-review/</guid>
@@ -553,244 +546,19 @@ Three
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       <guid>/project/study-forecast/</guid>
       <description>&lt;h2 id=&#34;interactive-web-application-for-developmental-researchers&#34;&gt;Interactive web application for developmental researchers&lt;/h2&gt;
-&lt;p&gt;Longitudinal research studies aim to collect data from the same participants over time to measure developmental milestones of interest. Because these studies involve research visits at multiple age-points, they present challenges for project management across long timescales (e.g. 5 years). The optimal study design must be balanced with logistical constraints of the research team, and the burden on participants. Many variables are considered when designing a longitudinal study, from the number of participants per visit, the time intervals between visits, the target age of participants at each visit, and the total duration of the study.&lt;/p&gt;
-&lt;p&gt;I developed interactive tool to visualize how these variables influence the timing and volume of study visits. The web application pulls source data that the researcher provides, which includes study cohort numbers, participant age, and enrichment variables of interest. The output includes summary metrics of the selected sample and figures/tables to visualize the projected volume and timing of research visits over the selected study duration. The researcher can modulate the output to visualize how changes to study design (e.g. number of participants) impact the study schedule. Once the study design has been selected, the output tables can then be used by project managers to effectively plan study operations on a weekly basis.&lt;/p&gt;
-&lt;p&gt;This work was done during my Post-Doc in the Department of Child and Adolescent Psychiatry, NYU Langone Health&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Academic: the website builder for Hugo</title>
-      <link>/post/getting-started/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/post/getting-started/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Create a free website with Academic using Markdown, Jupyter, or RStudio. Choose a beautiful color theme and build anything with the Page Builder - over 40 &lt;em&gt;widgets&lt;/em&gt;, &lt;em&gt;themes&lt;/em&gt;, and &lt;em&gt;language packs&lt;/em&gt; included!&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt;
- of what you&#39;ll get in less than 10 minutes, or 
-&lt;a href=&#34;https://sourcethemes.com/academic/#expo&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;view the &lt;strong&gt;showcase&lt;/strong&gt;&lt;/a&gt;
- of personal, project, and business sites.&lt;/p&gt;
+&lt;p&gt;In developmental psychology, it&#39;s common to collect data from the same participants over time to measure developmental milestones of interest. These longitudinal studies involve research visits at multiple time points, presenting challenges for project management across long timescales. The optimal study design to answer a given research question must be balanced with logistical constraints of the research team, and the time burden placed on participating families.&lt;/p&gt;
+&lt;p&gt;Many variables are considered when designing a longitudinal study:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;👉 
-&lt;a href=&#34;#install&#34;&gt;&lt;strong&gt;Get Started&lt;/strong&gt;&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;📚 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;View the &lt;strong&gt;documentation&lt;/strong&gt;&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;💬 
-&lt;a href=&#34;https://discourse.gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Ask a question&lt;/strong&gt; on the forum&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;👥 
-&lt;a href=&#34;https://spectrum.chat/academic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chat with the &lt;strong&gt;community&lt;/strong&gt;&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;🐦 Twitter: 
-&lt;a href=&#34;https://twitter.com/source_themes&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@source_themes&lt;/a&gt;
- 
-&lt;a href=&#34;https://twitter.com/GeorgeCushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@GeorgeCushen&lt;/a&gt;
- 
-&lt;a href=&#34;https://twitter.com/search?q=%23MadeWithAcademic&amp;amp;src=typd&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#MadeWithAcademic&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;💡 
-&lt;a href=&#34;https://github.com/gcushen/hugo-academic/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Request a &lt;strong&gt;feature&lt;/strong&gt; or report a &lt;strong&gt;bug&lt;/strong&gt;&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;⬆️ &lt;strong&gt;Updating?&lt;/strong&gt; View the 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Update Guide&lt;/a&gt;
- and 
-&lt;a href=&#34;https://sourcethemes.com/academic/updates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Release Notes&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;❤ &lt;strong&gt;Support development&lt;/strong&gt; of Academic:
-&lt;ul&gt;
-&lt;li&gt;☕️ 
-&lt;a href=&#34;https://paypal.me/cushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Donate a coffee&lt;/strong&gt;&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;💵 
-&lt;a href=&#34;https://www.patreon.com/cushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Become a backer on &lt;strong&gt;Patreon&lt;/strong&gt;&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;🖼️ 
-&lt;a href=&#34;https://www.redbubble.com/people/neutreno/works/34387919-academic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Decorate your laptop or journal with an Academic &lt;strong&gt;sticker&lt;/strong&gt;&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;👕 
-&lt;a href=&#34;https://academic.threadless.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wear the &lt;strong&gt;T-shirt&lt;/strong&gt;&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;👩‍💻 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/contribute/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Contribute&lt;/strong&gt;&lt;/a&gt;
-&lt;/li&gt;
+&lt;li&gt;total number of participants (50, or 500?)&lt;/li&gt;
+&lt;li&gt;total duration of the study (e.g. 6 months or 6 years?)&lt;/li&gt;
+&lt;li&gt;target age of participants at each visit (newborn, 12 months, 5 years?)&lt;/li&gt;
+&lt;li&gt;target populations of interest (e.g. low vs. high SES?)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/academic.png&#34; data-caption=&#34;Academic is mobile first with a responsive design to ensure that your site looks stunning on every device.&#34;&gt;
-
-
-  &lt;img src=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/academic.png&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    Academic is mobile first with a responsive design to ensure that your site looks stunning on every device.
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-&lt;p&gt;&lt;strong&gt;Key features:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Page builder&lt;/strong&gt; - Create &lt;em&gt;anything&lt;/em&gt; with 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/page-builder/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;widgets&lt;/strong&gt;&lt;/a&gt;
- and 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;elements&lt;/strong&gt;&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Edit any type of content&lt;/strong&gt; - Blog posts, publications, talks, slides, projects, and more!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Create content&lt;/strong&gt; in 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Markdown&lt;/strong&gt;&lt;/a&gt;
-, 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/jupyter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Jupyter&lt;/strong&gt;&lt;/a&gt;
-, or 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-rstudio&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Plugin System&lt;/strong&gt; - Fully customizable 
-&lt;a href=&#34;https://sourcethemes.com/academic/themes/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;color&lt;/strong&gt; and &lt;strong&gt;font themes&lt;/strong&gt;&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Display Code and Math&lt;/strong&gt; - Code highlighting and 
-&lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LaTeX math&lt;/a&gt;
- supported&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Integrations&lt;/strong&gt; - 
-&lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Analytics&lt;/a&gt;
-, 
-&lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Disqus commenting&lt;/a&gt;
-, Maps, Contact Forms, and more!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Beautiful Site&lt;/strong&gt; - Simple and refreshing one page design&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Industry-Leading SEO&lt;/strong&gt; - Help get your website found on search engines and social media&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Media Galleries&lt;/strong&gt; - Display your images and videos with captions in a customizable gallery&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mobile Friendly&lt;/strong&gt; - Look amazing on every screen with a mobile friendly version of your site&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Multi-language&lt;/strong&gt; - 15+ language packs including English, 中文, and Português&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Multi-user&lt;/strong&gt; - Each author gets their own profile page&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Privacy Pack&lt;/strong&gt; - Assists with GDPR&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Stand Out&lt;/strong&gt; - Bring your site to life with animation, parallax backgrounds, and scroll effects&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;One-Click Deployment&lt;/strong&gt; - No servers. No databases. Only files.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
-&lt;p&gt;Academic comes with &lt;strong&gt;automatic day (light) and night (dark) mode&lt;/strong&gt; built-in. Alternatively, visitors can  choose their preferred mode - click the sun/moon icon in the top right of the 
-&lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Demo&lt;/a&gt;
- to see it in action! Day/night mode can also be disabled by the site admin in &lt;code&gt;params.toml&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://sourcethemes.com/academic/themes/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Choose a stunning &lt;strong&gt;theme&lt;/strong&gt; and &lt;strong&gt;font&lt;/strong&gt;&lt;/a&gt;
- for your site. Themes are fully 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/customization/#custom-theme&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;customizable&lt;/a&gt;
-.&lt;/p&gt;
-&lt;h2 id=&#34;ecosystem&#34;&gt;Ecosystem&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;
-&lt;a href=&#34;https://github.com/sourcethemes/academic-admin&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic Admin&lt;/a&gt;
-:&lt;/strong&gt; An admin tool to import publications from BibTeX or import assets for an offline site&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;
-&lt;a href=&#34;https://github.com/sourcethemes/academic-scripts&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic Scripts&lt;/a&gt;
-:&lt;/strong&gt; Scripts to help migrate content to new versions of Academic&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;
-&lt;p&gt;You can choose from one of the following four methods to install:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-web-browser&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;one-click install using your web browser (recommended)&lt;/strong&gt;&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-git&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;install on your computer using &lt;strong&gt;Git&lt;/strong&gt; with the Command Prompt/Terminal app&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-zip&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;install on your computer by downloading the &lt;strong&gt;ZIP files&lt;/strong&gt;&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-rstudio&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;install on your computer with &lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Then 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/get-started/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;personalize and deploy your new site&lt;/a&gt;
-.&lt;/p&gt;
-&lt;h2 id=&#34;updating&#34;&gt;Updating&lt;/h2&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;View the Update Guide&lt;/a&gt;
-.&lt;/p&gt;
-&lt;p&gt;Feel free to &lt;em&gt;star&lt;/em&gt; the project on 
-&lt;a href=&#34;https://github.com/gcushen/hugo-academic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt;
- to help keep track of 
-&lt;a href=&#34;https://sourcethemes.com/academic/updates&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;updates&lt;/a&gt;
-.&lt;/p&gt;
-&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
-&lt;p&gt;Copyright 2016-present 
-&lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;George Cushen&lt;/a&gt;
-.&lt;/p&gt;
-&lt;p&gt;Released under the 
-&lt;a href=&#34;https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt;
- license.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Hello R Markdown</title>
-      <link>/post/2015-07-23-r-rmarkdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      <guid>/post/2015-07-23-r-rmarkdown/</guid>
-      <description>
-
-
-&lt;div id=&#34;r-markdown&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;R Markdown&lt;/h1&gt;
-&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; class=&#34;uri&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(cars)
-##      speed           dist       
-##  Min.   : 4.0   Min.   :  2.00  
-##  1st Qu.:12.0   1st Qu.: 26.00  
-##  Median :15.0   Median : 36.00  
-##  Mean   :15.4   Mean   : 42.98  
-##  3rd Qu.:19.0   3rd Qu.: 56.00  
-##  Max.   :25.0   Max.   :120.00
-fit &amp;lt;- lm(dist ~ speed, data = cars)
-fit
-## 
-## Call:
-## lm(formula = dist ~ speed, data = cars)
-## 
-## Coefficients:
-## (Intercept)        speed  
-##     -17.579        3.932&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div id=&#34;including-plots&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Including Plots&lt;/h1&gt;
-&lt;p&gt;You can also embed plots. See Figure &lt;a href=&#34;#fig:pie&#34;&gt;1&lt;/a&gt; for example:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;par(mar = c(0, 1, 0, 1))
-pie(
-  c(280, 60, 20),
-  c(&amp;#39;Sky&amp;#39;, &amp;#39;Sunny side of pyramid&amp;#39;, &amp;#39;Shady side of pyramid&amp;#39;),
-  col = c(&amp;#39;#0292D8&amp;#39;, &amp;#39;#F7EA39&amp;#39;, &amp;#39;#C4B632&amp;#39;),
-  init.angle = -50, border = NA
-)&lt;/code&gt;&lt;/pre&gt;
-&lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:pie&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
-&lt;p class=&#34;caption&#34;&gt;
-Figure 1: A fancy pie chart.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+&lt;p&gt;I developed an 
+&lt;a href=&#34;https://mvantieghem.shinyapps.io/longitudinal_study_forecasting&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;interactive tool&lt;/a&gt;
+ to facilitate study planning for longitudinal research studies. It&#39;s specifically geared towards research groups with existing pregnancy cohorts that plan to conduct infant follow-up assessments (e.g. newborn, 6-month and 12-month). Given how rapidly infants reach developmental milestones, the timing of study assessments is extremely important.&lt;/p&gt;
+&lt;p&gt;The web application, developed with R shiny, allows the researcher to provide their own source data for their unique study cohort, and see how study decisions impact the long-term study forecast. The source data includes birth dates (or due dates), and any enrichment variables relevant to that cohort (e.g. income brackets). The user can then interactively change the total number of participants to be included, time intervals between visits,  target age of participants at each visit, and the total duration of the study. The output provides summary metrics, with figures to vizualize the projected volume of study visits over time. Once the study design has been selected, the output tables can then be used by project managers to effectively plan study operations and study budgets on a weekly basis.&lt;/p&gt;
+&lt;p&gt;This work was done during my Post-doctoral fellowship at NYU Langone Health.&lt;/p&gt;
 </description>
     </item>
     

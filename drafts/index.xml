@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog_drafts | Michelle VanTieghem</title>
-    <link>/blog_drafts/</link>
-      <atom:link href="/blog_drafts/index.xml" rel="self" type="application/rss+xml" />
-    <description>Blog_drafts</description>
+    <title>Drafts | Michelle VanTieghem</title>
+    <link>/drafts/</link>
+      <atom:link href="/drafts/index.xml" rel="self" type="application/rss+xml" />
+    <description>Drafts</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 20 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
-      <title>Blog_drafts</title>
-      <link>/blog_drafts/</link>
+      <title>Drafts</title>
+      <link>/drafts/</link>
     </image>
     
     <item>
       <title>Predicting age from brain imaging data</title>
-      <link>/blog_drafts/age-brain-prediction/</link>
+      <link>/drafts/age-brain-prediction/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/blog_drafts/age-brain-prediction/</guid>
+      <guid>/drafts/age-brain-prediction/</guid>
       <description>&lt;p&gt;under construction!&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Slides</title>
-      <link>/blog_drafts/slides/example/</link>
+      <link>/drafts/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/blog_drafts/slides/example/</guid>
+      <guid>/drafts/slides/example/</guid>
       <description>&lt;h1 id=&#34;create-slides-in-markdown-with-academic&#34;&gt;Create slides in Markdown with Academic&lt;/h1&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://sourcethemes.com/academic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic&lt;/a&gt;

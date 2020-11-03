@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogdown on Blog</title>
+    <link>/tags/blogdown/</link>
+    <description>Recent content in Blogdown on Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Michelle VanTieghem - All rights reserved</copyright>
+    <lastBuildDate>Tue, 14 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/blogdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building a Website with Blogdown, Hugo and Github Pages</title>
+      <link>/blog/hugo_website_tutorial/</link>
+      <pubDate>Tue, 14 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/hugo_website_tutorial/</guid>
+      <description>A few months ago, I attended an R ladies NYC workshop on creating websites with Blogdown and Hugo themes. with For the R user who is looking to generate their own webpage - look no further!</description>
+    </item>
+    
+  </channel>
+</rss>

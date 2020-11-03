@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shiny on Blog</title>
+    <link>/tags/shiny/</link>
+    <description>Recent content in Shiny on Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Michelle VanTieghem - All rights reserved</copyright>
+    <lastBuildDate>Tue, 14 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/shiny/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Shiny app for longitudinal studies</title>
+      <link>/blog/longitudinal_study_app/</link>
+      <pubDate>Tue, 14 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/longitudinal_study_app/</guid>
+      <description>Interactive web application for psychology researchers
+Github | Web app
+In developmental psychology, it&amp;rsquo;s common to collect data from the same participants over time to measure developmental milestones of interest.</description>
+    </item>
+    
+  </channel>
+</rss>

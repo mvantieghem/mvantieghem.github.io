@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="generator" content="Hugo 0.77.0" />
+	
+	<link rel="icon" href="/images/logo.png">
+	
+	<title>Building a Website with Blogdown, Hugo and Github Pages | Blog</title>
+	
+	
+
+	<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Building a Website with Blogdown, Hugo and Github Pages"/>
+<meta name="twitter:description" content="A few months ago, I attended an R ladies NYC workshop on creating websites with Blogdown and Hugo themes. with For the R user who is looking to generate their own webpage - look no further!"/>
+
+	<meta property="og:title" content="Building a Website with Blogdown, Hugo and Github Pages" />
+<meta property="og:description" content="A few months ago, I attended an R ladies NYC workshop on creating websites with Blogdown and Hugo themes. with For the R user who is looking to generate their own webpage - look no further!" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/blog/hugo_website_tutorial/" />
+<meta property="article:published_time" content="2020-07-14T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-07-14T00:00:00+00:00" />
+
+
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+	 crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel="stylesheet">
+	<link href="/css/medium.css" rel="stylesheet">
+	<link href="/css/additional.css" rel="stylesheet">
+
+	
+	
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down">
+    <div class="container pr-0">
+        
+        <a class="navbar-brand" href="//">
+
+            
+            <img src="/images/logo.png" alt="logo">
+            
+        </a>
+        
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        
+        <div class="collapse navbar-collapse" id="navbarMediumish">
+            
+            <ul class="navbar-nav ml-auto">
+                 
+                <li class="nav-item ">
+                    <a class="nav-link" href="/blog">Blog</a>
+                </li>
+                 
+                <li class="nav-item ">
+                    <a class="nav-link" href="/">About Me</a>
+                </li>
+                 
+                <li class="nav-item ">
+                    <a class="nav-link" href="/static/experience">Experience</a>
+                </li>
+                
+            </ul>
+        </div>
+        
+    </div>
+</nav>
+
+
+        <div class="site-content">   
+            <div class="container">
+<div class="mainheading">
+    <h1 class="sitetitle">Blog</h1>
+    <p class="lead">
+         
+    </p>
+</div><div class="main-content">
+        
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-md-2 pl-0"><div class="share sticky-top sticky-top-offset">
+    <p>Share</p>
+    <ul>
+        <li class="ml-1 mr-1">
+        <a target="_blank" href="https://twitter.com/intent/tweet?text=Building%20a%20Website%20with%20Blogdown%2c%20Hugo%20and%20Github%20Pages&url=%2fblog%2fhugo_website_tutorial%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=435');return false;">
+        <i class="fab fa-twitter"></i>
+        </a>
+        </li>
+        
+        <li class="ml-1 mr-1">
+        <a target="_blank" href="https://facebook.com/sharer.php?u=%2fblog%2fhugo_website_tutorial%2f" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
+        <i class="fab fa-facebook-f"></i>
+        </a>
+        </li>
+
+        <li class="ml-1 mr-1">
+        <a target="_blank" href="https://www.xing.com/spi/shares/new?url=%2fblog%2fhugo_website_tutorial%2f" onclick="window.open(this.href, 'xing-share', 'width=550,height=435');return false;">
+        <i class="fab fa-xing"></i>
+        </a>
+        </li>        
+    </ul>
+
+    
+</div>
+</div>
+                                
+                <div class="col-md-9 flex-first flex-md-unordered">
+                    <div class="mainheading">
+                        	
+                        
+                        
+                        
+                        <div class="row post-top-meta">
+                            <div class="col-xs-12 col-md-3 col-lg-2 text-center text-md-left mb-4 mb-md-0 md-nopad-right">
+                                <img class="author-thumb" src="/images/new_headshot.jpg" alt="Michelle VanTieghem">
+                            </div>
+                            <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left md-nopad-left">
+                                <a target="_blank" class="link-dark">Michelle VanTieghem</a><br>
+                                <span class="author-description">
+                                    Creator of this blog.<br>
+                                    <i class="far fa-star"></i>
+                                    Jul 14, 2020
+                                    <i class="far fa-clock clock"></i>
+                                    5 min read
+                                </span>					
+                            </div>
+                        </div>			
+                        	
+                        
+                                                
+                        
+                        <h1 class="posttitle">Building a Website with Blogdown, Hugo and Github Pages</h1> 
+                    </div>
+
+                    
+                    
+                    
+                    
+
+                    
+                    <div class="article-post">
+                        <p>A few months ago, I attended an <a href="https://www.rladiesnyc.org/">R ladies NYC</a> workshop on creating websites with Blogdown and Hugo themes. with For the R user who is looking to generate their own webpage - look no further!</p>
+<p>The <a href="https://bookdown.org/yihui/blogdown/">Blogdown</a> R package has powerful capabilities without needing to learn html or java, and <a href="https://themes.gohugo.io/">Hugo</a> has a seemingly endless choice of beautiful website themes.</p>
+<p>Why use <a href="https://pages.github.com/">Github pages</a> to deploy the website? First, it&rsquo;s free - every github user has a free domain to use. Second, it&rsquo;s easily linked to your github profile. Third, it really encourages you to version control your website!</p>
+<p>Here, I am going to walk through a step-by-step guide to generate a webpage from beginning to end, using  <strong>Blogdown, Hugo and Github pages.</strong></p>
+<h2 id="part-1-build-your-website">Part 1: Build your website</h2>
+<p><strong>Choose a theme for your website</strong></p>
+<p>Hugo has a wide array of website themes, which can be found <a href="https://themes.gohugo.io/">here.</a> Themes dictate both the aethetics and the format of a website. Choose wisely - once you start with a certain theme, it&rsquo;s hard to switch themes later.</p>
+<p>After you&rsquo;ve chosen a theme, click &ldquo;Homepage&rdquo; on the theme website, which leads you to the owner&rsquo;s github repository for the theme. We will use this github project (e.g. &ldquo;user/themename&rdquo;) as input to the blogdown::new_website function.</p>
+<p><strong>Use blogdown to generate a website template</strong></p>
+<p>Now we&rsquo;re ready to start working with blogdown. Start a new R project, and then generate a new blogdown website using your chosen theme.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#a6e22e">install.packages</span>(<span style="color:#e6db74">&#39;blogdown&#39;</span>)
+<span style="color:#a6e22e">install.packages</span>(<span style="color:#e6db74">&#39;hugo&#39;</span>)
+<span style="color:#a6e22e">library</span>(blogdown)
+blogdown<span style="color:#f92672">::</span><span style="color:#a6e22e">new_site</span>(theme <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;user/themename&#34;</span>)
+</code></pre></div><p><strong>Edit content on your website</strong></p>
+<p>Every theme has a slightly different setup, but we will walk through the basic overview. I also recommend reading the theme documentation for more details.</p>
+<ul>
+<li><strong>Config and/or menu files:</strong> Contain the backbone structure of your website. Config files designate the url, theme, and title of your website. Menu files designate the &ldquo;widgets&rdquo; or components of your website (which varies by theme). <em>Disclaimer: depending on the theme, these files may be in the main directory or different locations (e.g. in the &ldquo;data&rdquo; or &ldquo;config&rdquo; folders) and might end with either &ldquo;.toml&rdquo; or &ldquo;.yml&rdquo;.</em></li>
+<li><strong>Content:</strong> Where most of your editing will take place. The organization of this folder will vary depending on your chosen theme, and the files here should coincide with your menu.</li>
+<li><strong>Static:</strong> The storage location for any static files that you add to your website. For example, you can add PDF files or images that you link in the content.</li>
+<li><strong>Themes:</strong> Stores the necessary code to build the website using your chosen theme. <em>Do not edit!</em></li>
+<li><strong>Public:</strong> Contains the live website, built from the contents and configurations. <em>Do not edit!</em></li>
+</ul>
+<p><strong>Preview your changes</strong></p>
+<p>Blogdown also makes it really easy to preview changes. With this commmand, the webpage will display in the viewer panel and can be expanded to full view, just like any other html document.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">blogdown<span style="color:#f92672">::</span><span style="color:#a6e22e">serve_site</span>()
+</code></pre></div><p>There is some trial-and-error to figure out how changes in the content files correspond to changes in the website. Try making a simple change first, like changing the title of your webpage in the config file, and see how it changes your webpage.</p>
+<p><em>Do I need to run serve_site() after every change I make?</em><br>
+It depends. After running it once, the webpage preview will automatically refresh after each time you save changes to existing files, but if you remove or add new widgets, you will need to re-run the command to view those structural changes.</p>
+<h2 id="part-2-link-the-website-to-github--github-pages">Part 2: Link the website to Github &amp; Github pages</h2>
+<p><strong>Make a &lsquo;webpage&rsquo; repository</strong></p>
+<p>Websites change, and websites also break&hellip; but this all becomes much more manageable with version control! First, you want to make a new github repository, and link it to a new R project.</p>
+<p><em>Not familiar with linking github and R?</em>
+When making a new new R project, choose the option &lsquo;from version control&rsquo;, then &lsquo;Github&rsquo;. On the next page, add the link to your git repository.</p>
+<p>The &lsquo;public&rsquo; folder should not be added to this  repository!
+An easy way to deal with this is to add the public directory to your .gitignore file.</p>
+<p>When you&rsquo;re happy with the content of your webpage, add, commit and push the website content to the ‘webpage’ repository.</p>
+<p><strong>Make a &lsquo;github pages&rsquo; repository</strong></p>
+<p>Hugo, like many other website platforms, separates the editable content of your website from the <em>live</em> website content, also commonly referred to as the &ldquo;public&rdquo; content. To deploy the website, we will sync the &ldquo;public&rdquo; folder to Github pages.</p>
+<p>First, make a new repository on github called <strong>username.github.io</strong>. Github pages will automatically generate a webpage from any repository with this specific name, so unfortunately you cannot be creative here. Then, add the &lsquo;username.github.io&rsquo; repository as a submodule of the &lsquo;webpage&rsquo; repository.</p>
+<p>For these few lines of code, we need to excute git commands in terminal, outside of R studio.</p>
+<pre><code class="language-terminal" data-lang="terminal">cd /path-to-webpage/** 
+rm -rf public
+git submodule add -b master https://github.com/username/username.github.io.git public
+</code></pre><p>This enables the &lsquo;username.github.io.git&rsquo; repository to contain only the &lsquo;public&rsquo; directory of your website.</p>
+<p>Finally, update the website address in the <strong>config.toml</strong> file. Simply replace &ldquo;baseURL&rdquo; with your github pages url (<a href="https://username.github.io">https://username.github.io</a>).</p>
+<p><strong>Deploy your changes to the live website</strong></p>
+<p>When you&rsquo;re ready to make your webpage live, the process is pretty painless. Simply add, commit and push your public website content to the github pages repsitory, and the webpage will automatically update at <a href="https://username.github.io">https://username.github.io</a>.</p>
+<pre><code class="language-terminal" data-lang="terminal">cd webpage/public
+git add . 
+git commit -m &quot;my message here&quot;
+git push origin master 
+</code></pre><p>You now have a functioning website built with github, R and hugo!</p>
+<p><strong>Further reading</strong></p>
+<ul>
+<li>
+<p>For additional information and trouble-shooting, see the related <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">Hugo documentation</a> for hosting websites on github pages.</p>
+</li>
+<li>
+<p>For an excellent resource on using github with R, check out this excellent resource: <a href="https://happygitwithr.com/index.html">Happy Git with R</a>.</p>
+</li>
+<li>
+<p>For more blogdown details, far beyond the scope covered here: <a href="https://bookdown.org/yihui/blogdown/">Blogdown documentation</a></p>
+</li>
+</ul>
+
+                    </div>
+                    
+                    
+                    <div class="after-post-tags">
+                        <ul class="tags">
+                        
+                        <li>
+                        <a href="/tags/r">R</a>
+                        </li>
+                        
+                        <li>
+                        <a href="/tags/blogdown">Blogdown</a>
+                        </li>
+                        
+                        <li>
+                        <a href="/tags/hugo">Hugo</a>
+                        </li>
+                        
+                        </ul>
+                    </div>
+                    
+                    
+                    
+                    <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
+                    
+                        <a class="d-block col-md-6" href="/blog/modeling_metastasis/"> &laquo; Modeling Metastasis</a>
+                    
+                    
+                        <a class="d-block col-md-6 text-lg-right" href="/blog/longitudinal_study_app/">Shiny app for longitudinal studies &raquo;</a>
+                    
+                    <div class="clearfix"></div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+    </div>
+
+
+            </div>
+<div class="jumbotron fortags">
+	<div class="d-md-flex h-100">
+		<div class="col-md-4 transpdark align-self-center text-center h-100">
+			<div class="d-md-flex align-items-center justify-content-center h-100">
+				<h2 class="d-md-block d-none align-self-center py-1 font-weight-light">Explore <span class="d-none d-md-inline">→</span></h2>
+			</div>
+		</div>
+		<div class="col-md-8 p-5 align-self-center text-center">
+			
+			<a class="mt-1 mb-1" href="/tags/blogdown">blogdown</a>
+			
+			<a class="mt-1 mb-1" href="/tags/classification">classification</a>
+			
+			<a class="mt-1 mb-1" href="/tags/data-science">data-science</a>
+			
+			<a class="mt-1 mb-1" href="/tags/hugo">hugo</a>
+			
+			<a class="mt-1 mb-1" href="/tags/r">r</a>
+			
+			<a class="mt-1 mb-1" href="/tags/research">research</a>
+			
+			<a class="mt-1 mb-1" href="/tags/shiny">shiny</a>
+			
+			<a class="mt-1 mb-1" href="/tags/sklearn">sklearn</a>
+			
+		</div>
+	</div>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-6 text-center text-lg-left">
+                &copy; Copyright Michelle VanTieghem - All rights reserved
+            </div>
+            <div class="col-md-6 col-sm-6 text-center text-lg-right">    
+                <a target="_blank" rel="noopener" href="https://www.wowthemes.net">Mediumish Theme</a> by WowThemes.net
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+        </div>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script src="/js/mediumish.js"></script>
+
+    </body>
+</html>

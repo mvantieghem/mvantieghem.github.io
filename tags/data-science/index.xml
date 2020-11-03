@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Science on Blog</title>
+    <link>/tags/data-science/</link>
+    <description>Recent content in Data Science on Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Michelle VanTieghem - All rights reserved</copyright>
+    <lastBuildDate>Tue, 03 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Modeling Metastasis</title>
+      <link>/blog/modeling_metastasis/</link>
+      <pubDate>Tue, 03 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/modeling_metastasis/</guid>
+      <description>Predicting cancer outcomes in Merkel Cell Carcinoma Consulting project for Insight&amp;rsquo;s Health Data Science program
+Github | Web app | Demo
+Merkel cell carcinoma is a rare but aggressive form of skin cancer - it’s five times more deadly than more common skin cancers, like melanoma.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Blog</title>
+    <link>/tags/python/</link>
+    <description>Recent content in Python on Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Michelle VanTieghem - All rights reserved</copyright>
+    <lastBuildDate>Tue, 17 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to make your jupyter notebook more like R markdown</title>
+      <link>/blog/jupyter_toc/</link>
+      <pubDate>Tue, 17 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/jupyter_toc/</guid>
+      <description>Configurations and themes in jupyter notebooks Make the transition to python easier for the R user
+If you&amp;rsquo;re like me, and regularly used R markdown for analyses and reports, you were probably disappointed the first time you opened a jupyter notebook.</description>
+    </item>
+    
+  </channel>
+</rss>
